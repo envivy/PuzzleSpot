@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 704ed71ee0b58424dba7b4c77119f16c, type: 3}
+  m_Name: Matter
+  m_EditorClassIdentifier: 
+  isDebug: 1
+  CloseBtnAudio: {fileID: 8300000, guid: bf397fd233d3a904ba31764aceb90c76, type: 3}
+  BtnAudio: {fileID: 8300000, guid: ddee6404d71dbbf4eaff2f59bf31f232, type: 3}
+  ToastAudio: {fileID: 8300000, guid: e168dea4d5e306d47aaa8fac6b213ad7, type: 3}
+  mainPageAudio: {fileID: 8300000, guid: eb0bccdddf66c474c9b5165ac631579e, type: 3}
+  winAudio: {fileID: 8300000, guid: af72314f4a25fc140b372e86e44f88e9, type: 3}
+  starAudio: {fileID: 8300000, guid: 2255e5b7d36574648b7c26de049f2672, type: 3}
+  stepAudio: {fileID: 8300000, guid: ab3333d26f2abf1419c95596bbdbb97d, type: 3}
+  toastUI: {fileID: 89589801506201278, guid: 3a82ff038c30a314892873d4d25a56eb, type: 3}
+  FlyCash: {fileID: 3716042697118379792, guid: 85b8835f7afbb3347ad6a20c05e8becf, type: 3}
+  levels:
+  - levelID: 1
+    title: Improve their life
+    tip: Help the two elderly grandparents imporve their lives
+    time: 120
+    targetScore: 14
+    imagePath1: "\u7B2C1\u517301"
+    imagePath2: "\u7B2C1\u517302"
+    imagePath3: "\u7B2C1\u517303"
+    tipInfos:
+    - Drag the money onto the wall
+    - Drag the money onto the floor
+    - Drag the money onto the bed
+    - Drag the money onto the quilt
+    - Drag the money onto the grandmother
+    - Drag the money onto the grandfather
+    - Drag the money onto the lamp shelf
+    - Drag the money onto the lamp item
+    - Drag the money into the fireplace
+    - Drag the money onto the food on the table
+    - Drag the money onto the dining table
+    - Drag the money onto the window
+    - Drag the money into the mouse hole
+    - Open the front door
+    - Drag the money to the poor girl
+  - levelID: 2
+    title: Find the murder evidence
+    tip: Find all the evidence to convict her.
+    time: 120
+    targetScore: 7
+    imagePath1: "\u7B2C2\u517301"
+    imagePath2: "\u7B2C2\u517302"
+    imagePath3: "\u7B2C2\u517303"
+    tipInfos:
+    - Open the window
+    - Flip the pillow on the bed
+    - Push the wardrobe to the left
+    - Flip the carpet on the floor, then open the hatch
+    - Open the fridge door, move the food blocking the front(0/3)
+  - levelID: 3
+    title: Empower the girl
+    tip: Help her knead all the dough.
+    time: 120
+    targetScore: 10
+    imagePath1: "\u7B2C3\u517301"
+    imagePath2: "\u7B2C3\u517302"
+    imagePath3: "\u7B2C3\u517303"
+    tipInfos:
+    - Drag the energy drink to the girl
+    - Drag the chocolate bar to the girl
+    - Drag the cockroach to the mother
+    - Open the window, drag the empty water cup to the cow, then drag the glass of
+      milk back to the girl
+    - Drag the glass of water to the girl
+    - Drag the vegetables to the girl
+    - Drag the microphone to the mother
+    - Drag the dumbbell to the girl
+    - Drag the fan to the girl
+    - Take the phone from the mother's bag
+  - levelID: 4
+    title: Find all the blankets
+    tip: Help the girl feel warm!
+    time: 120
+    targetScore: 10
+    imagePath1: "\u7B2C4\u517301"
+    imagePath2: "\u7B2C4\u517302"
+    imagePath3: "\u7B2C4\u517303"
+    tipInfos:
+    - Drag the tablecloth to the girl
+    - Drag the curtain to the girl
+    - Open the wardrobe, then take the blanket from the wardrobe and drag it to the
+      girl
+    - Open the front door, take the blanket from the delivery person, and drag it
+      to the girl
+    - Take the scissors from the table and drag them to the cat, then drag the cat's
+      fur onto the girl
+    - Take the cat's blanket and drag it to the girl
+    - Take the hammer and hit the floor, then drag the blanket to the girl
+    - Drag the leaves outside the window to the girl
+    - Drag the girl's wig onto the girl
+    - Drag the carpet to the girl
+  - levelID: 5
+    title: Help the girl sleep better!
+    tip: Help the girl sleep better!
+    time: 120
+    targetScore: 7
+    imagePath1: "\u7B2C5\u517301"
+    imagePath2: "\u7B2C5\u517302"
+    imagePath3: "\u7B2C5\u517303"
+    tipInfos:
+    - Take down the clock and remove the battery
+    - Use tape to seal the vent
+    - Use a hammer to break the mirror
+    - Use a lock to secure the door
+    - Unplug the computer
+    - Pull the wooden floor to the left
+    - Pull the blanket over the girl
+  - levelID: 6
+    title: Clean the room before the husband comes back
+    tip: Don't let her husband find out
+    time: 120
+    targetScore: 19
+    imagePath1: "\u7B2C6\u517301"
+    imagePath2: "\u7B2C6\u517302"
+    imagePath3: "\u7B2C6\u517303"
+    tipInfos:
+    - Drag all fruit peels and paper trash into the trash bin.
+    - Hide the mask under the pillow.
+    - Take the towel hanging on the wall to wipe the shoe marks.
+    - Take the towel hanging on the wall to clean the stain on the bed.
+    - Drag the black shoes for the man to wear.
+    - Drag the jacket for the man to put on.
+    - Drag the fan for the man to hold.
+    - Drag the pink shoes for the woman to wear.
+    - ' Drag the screen to the right, fold the door, and drag the jacket onto the
+      woman.'
+    - After completing all the above steps, open the window and throw the man out.
+    - Drag the cards into the toilet, then press the flush button to wash the cards
+      away.
+    - Click on the blanket on the bed to fold it.
+  - levelID: 7
+    title: Find all the cockroaches in the kitchen
+    tip: Help grandma eliminate all the cockroaches in the kitchen!
+    time: 120
+    targetScore: 10
+    imagePath1: "\u7B2C7\u517301"
+    imagePath2: "\u7B2C7\u517302"
+    imagePath3: "\u7B2C7\u517303"
+    tipInfos:
+    - Touch the sink faucet
+    - Open the fridge
+    - Lift the tablecloth
+    - Pick up the plate of food
+    - Open the cabinet under the sink
+    - Open the window and then close it
+    - Open the microwave
+    - Lift the glass of water
+    - ' Spill the basket of vegetables'
+    - Lift the potted plant
+  - levelID: 8
+    title: Find all pieces of evidence
+    tip: Find evidence to figure out what happened.
+    time: 120
+    targetScore: 8
+    imagePath1: "\u7B2C8\u517301"
+    imagePath2: "\u7B2C8\u517302"
+    imagePath3: "\u7B2C8\u517303"
+    tipInfos:
+    - Prescription glasses
+    - Footprint
+    - ' Blurred license plate'
+    - Tied hands
+    - Blood-stained knife
+    - Blood-stained cigarette pack
+    - Broken lipstick on the ground
+    - Photo
+  - levelID: 9
+    title: Gather all the ingredients for the hamburger
+    tip: She is starving! Help her make a giant hamburger to eat!
+    time: 120
+    targetScore: 10
+    imagePath1: "\u7B2C9\u517301"
+    imagePath2: "\u7B2C9\u517302"
+    imagePath3: "\u7B2C9\u517303"
+    tipInfos:
+    - Open the fridge and take the meat
+    - Use a cup of water to water the plant in the room and take the tomato
+    - Take the cloth and wipe the mushroom
+    - Take the mayonnaise bottle from the top of the fridge
+    - Take the onion from the sink
+    - Take the yellow curtain
+    - Take the egg
+    - Take the vegetables
+    - Take the pineapple from the painting
+    - Take the bun from the hanging rack
+  - levelID: 10
+    title: Help the girl fall asleep
+    tip: Clear out all the mosquitoes so the girl can sleep better
+    time: 120
+    targetScore: 11
+    imagePath1: "\u7B2C10\u517301"
+    imagePath2: "\u7B2C10\u517302"
+    imagePath3: "\u7B2C10\u517303"
+    tipInfos:
+    - Pull the carpet, then take the mosquito racket to kill mosquitoes
+    - Open the bedside drawer, take the lighter to light mosquito incense
+    - Open the wardrobe, give the girl a nightgown
+    - Open the wardrobe, give the girl a blanket
+    - Take the spray behind the pillow to kill mosquitoes
+    - Pull the spider web to make a curtain for the girl
+    - Turn on the ceiling fan with the red switch
+    - Light the oil lamp to drive away mosquitoes
+    - Pull the curtain and see what happens
+    - After driving away all the mosquitoes, give the girl the ointment tube from
+      the drawer
+    - When the girl's leg is no longer swollen, pull the blanket to help her sleep
+  - levelID: 11
+    title: Help the guy get enough toilet paper
+    tip: Help the guy get enough toilet paper
+    time: 120
+    targetScore: 9
+    imagePath1: "\u7B2C11\u517301"
+    imagePath2: "\u7B2C11\u517302"
+    imagePath3: "\u7B2C11\u517303"
+    tipInfos:
+    - Take the boy's shirt from afa
+    - Take the cloud from the sky
+    - Take the white flower
+    - Take the newspaper on the chair
+    - Take the bird's feather
+    - Use scissors to cut the cat's fur, then give it to the boy
+    - Take the hair of the boy sitting on the toilet
+    - Take the sock of the boy sitting on the toilet
+    - Take the bush behind the chair
+  - levelID: 12
+    title: Help the mom and baby improve their life
+    tip: A shattered family! Help them find a brighter future.
+    time: 120
+    targetScore: 14
+    imagePath1: "\u7B2C12\u517301"
+    imagePath2: "\u7B2C12\u517302"
+    imagePath3: "\u7B2C12\u517303"
+    tipInfos:
+    - Drag the money onto the floor
+    - Throw the husband out of the window with his mistress
+    - Drag the money onto the window
+    - Drag the money onto the front door
+    - Drag the money onto the light bulb
+    - Drag the money to the clock
+    - Drag the money to the torn mat
+    - Put the baby in the crib.
+    - Open the main door give money to the shipper to get the milk box for the baby
+    - Drag the money into the mouse hole
+    - Drag the money onto the table
+    - Drag the money onto the food
+    - Drag the money onto the bed
+    - Drag the money onto the girl
+  - levelID: 13
+    title: Help the girl to the bathroom
+    tip: Help the girl prepare a clean toilet room to use
+    time: 120
+    targetScore: 13
+    imagePath1: "\u7B2C13\u517301"
+    imagePath2: "\u7B2C13\u517302"
+    imagePath3: "\u7B2C13\u517303"
+    tipInfos:
+    - Drag the hand to the capybara
+    - Drag the plunger to the toilet with the hand
+    - Drag the slipper to the cockroach
+    - Drag the bottle cap to the capybara's butt
+    - Drag the brush to the stain(0/5)
+    - Drag the newspaper to the window
+    - Drag the tape to the newspaper on the window
+    - Drag the girl into the toilet
+    - Drag the toilet paper to the girl
+    - Drag the curtain to the girl

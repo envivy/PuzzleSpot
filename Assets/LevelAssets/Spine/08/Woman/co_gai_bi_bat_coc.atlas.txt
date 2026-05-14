@@ -1,0 +1,7 @@
+co_gai_bi_bat_coc.png
+size:388,388
+filter:Linear,Linear
+pma:true
+nan_nhan
+bounds:2,136,384,250
+offsets:0,1,385,251

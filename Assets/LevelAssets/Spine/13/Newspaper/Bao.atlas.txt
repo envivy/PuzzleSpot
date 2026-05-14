@@ -1,0 +1,8 @@
+Bao.png
+size:1004,416
+filter:Linear,Linear
+pma:true
+bao
+bounds:2,2,182,141
+bao_2
+bounds:2,145,998,266

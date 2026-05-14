@@ -1,0 +1,9 @@
+Baby_three.png
+size:292,128
+filter:Linear,Linear
+pma:true
+Body
+bounds:2,2,122,246
+rotate:90
+Heart
+bounds:250,82,38,42

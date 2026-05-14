@@ -1,0 +1,42 @@
+{
+"skeleton": {
+	"hash": "S2hhdQ9mDVk",
+	"spine": "4.0.64",
+	"x": -172.18,
+	"y": -2.81,
+	"width": 385,
+	"height": 251,
+	"images": "./images/nv/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "nan_nhan", "bone": "bone", "attachment": "nan_nhan" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"nan_nhan": {
+				"nan_nhan": { "x": 20.32, "y": 122.69, "width": 385, "height": 251 }
+			}
+		}
+	}
+],
+"animations": {
+	"run_ray": {
+		"bones": {
+			"bone": {
+				"scale": [
+					{},
+					{ "time": 0.2, "x": 1.028, "y": 0.972 },
+					{ "time": 0.4 }
+				]
+			}
+		}
+	}
+}
+}

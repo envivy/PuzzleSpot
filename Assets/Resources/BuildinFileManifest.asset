@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71b02dfa7aa9d4545b3417a18477fbee, type: 3}
+  m_Name: BuildinFileManifest
+  m_EditorClassIdentifier: 
+  BuildinFiles:
+  - PackageName: GameData
+    FileName: 05e384de283b04dbf034cc4058e7cd15.bundle
+    FileCRC32: b5cf245f
+  - PackageName: GameData
+    FileName: 06fe69a46d56b344d151c093106f2315.bundle
+    FileCRC32: e237f13c
+  - PackageName: GameData
+    FileName: 073e9249ec992b7175260bda2a66dae0.bundle
+    FileCRC32: db3c489a
+  - PackageName: GameData
+    FileName: 09154fb72dcf1597c40ee3801629e2a5.bundle
+    FileCRC32: bebb82c1
+  - PackageName: GameData
+    FileName: 1a04d0cff9f355c93d42290359362cf9.bundle
+    FileCRC32: bf5cfe98
+  - PackageName: GameData
+    FileName: 1a36f448b4f7c8c8e34e181f2cea62fc.bundle
+    FileCRC32: 910a4f1f
+  - PackageName: GameData
+    FileName: 244fad56910d4202309cc6cbe4508346.bundle
+    FileCRC32: 45246bbc
+  - PackageName: GameData
+    FileName: 2cd643a76c10b3dcd00fb022805a183f.bundle
+    FileCRC32: f7519df9
+  - PackageName: GameData
+    FileName: 2e30926942f942e381ee24d295cd7309.bundle
+    FileCRC32: 959bbcc5
+  - PackageName: GameData
+    FileName: 3155fde5a77d57522f6ba2444a9469c7.bundle
+    FileCRC32: f69f7969
+  - PackageName: GameData
+    FileName: 3ce19f8a465853a94c642aa54ff68391.bundle
+    FileCRC32: b67a93ba
+  - PackageName: GameData
+    FileName: 3dff479e3626e2348f3583de79c4e3f5.bundle
+    FileCRC32: fe25c33b
+  - PackageName: GameData
+    FileName: 3f2db6e24c560a420068251ce2c725e3.bundle
+    FileCRC32: 2672823e
+  - PackageName: GameData
+    FileName: 417a6710854075c0a141cfe62da58d35.bundle
+    FileCRC32: 544ba0af
+  - PackageName: GameData
+    FileName: 428bfef9b0860ef8d3fc5c5e505d6ca4.bundle
+    FileCRC32: c35ff899
+  - PackageName: GameData
+    FileName: 453da37b2f0ec7788594d154426d1c32.bundle
+    FileCRC32: 5561139a
+  - PackageName: GameData
+    FileName: 4b1611cf98052bc124f62d9da661d710.bundle
+    FileCRC32: 2f0eb001
+  - PackageName: GameData
+    FileName: 4f920227f9e07bf3ac6ce4d29d1cdd95.bundle
+    FileCRC32: 4bfbbca2
+  - PackageName: GameData
+    FileName: 522033ddefad7b490705e32e33872183.bundle
+    FileCRC32: d4327174
+  - PackageName: GameData
+    FileName: 525a8eec3cabc275281ceafc31618864.bundle
+    FileCRC32: 3e144409
+  - PackageName: GameData
+    FileName: 5869691c7bf2ebe98b9e32012344c8be.bundle
+    FileCRC32: 7655a770
+  - PackageName: GameData
+    FileName: 5a0fa0c34fa19ab1c3737f0ac56e2dc3.bundle
+    FileCRC32: 0b03b4d4
+  - PackageName: GameData
+    FileName: 5c447414ea2ec2eb4027c1c3e6e7600a.bundle
+    FileCRC32: c9a64bca
+  - PackageName: GameData
+    FileName: 5d7e68141c78340f82edc5c71353ee84.bundle
+    FileCRC32: 752351ef
+  - PackageName: GameData
+    FileName: 60ea3ce0a5304e5c88c2031dc1e939c0.bundle
+    FileCRC32: e7c2b0f2
+  - PackageName: GameData
+    FileName: 6f796a6e7203f8a21dee74c3f3a74b2f.bundle
+    FileCRC32: a6dc93fd
+  - PackageName: GameData
+    FileName: 70f856b345d793d8c646eaef4b19b1a9.bundle
+    FileCRC32: bb36a474
+  - PackageName: GameData
+    FileName: 720504c34c58a20242dae6e51a09d9c2.bundle
+    FileCRC32: 43bcf1ab
+  - PackageName: GameData
+    FileName: 76e91c2314941861247ed0018b0976b5.bundle
+    FileCRC32: 012e9977
+  - PackageName: GameData
+    FileName: 78295fb3006f0295af3494702a55fb81.bundle
+    FileCRC32: 1eabc91d
+  - PackageName: GameData
+    FileName: 78b9503a39d3f746f2cb7e984050e2fe.bundle
+    FileCRC32: 529f8a42
+  - PackageName: GameData
+    FileName: 79589fd8a8cd8f7b8171fb54b22e5f19.bundle
+    FileCRC32: 74f98f90
+  - PackageName: GameData
+    FileName: 7ef0ba887f19f2cd31d497dfb5f16e5a.bundle
+    FileCRC32: 60550e46
+  - PackageName: GameData
+    FileName: 8c3e97133be5ca0409ff4a1485a1b44e.bundle
+    FileCRC32: 1e877bfc
+  - PackageName: GameData
+    FileName: 8e8d42c768503df0d4c8ea0418128d1b.bundle
+    FileCRC32: 2ad8866a
+  - PackageName: GameData
+    FileName: 8ee89218aa1b60619647b7e224bd0965.bundle
+    FileCRC32: cd7e309d
+  - PackageName: GameData
+    FileName: 99cfb103df8548e38e045e6ea64b6114.bundle
+    FileCRC32: 0dc1adc8
+  - PackageName: GameData
+    FileName: 9a43145941e2a9c9c75544ef66e190fc.bundle
+    FileCRC32: 2b2835c2
+  - PackageName: GameData
+    FileName: 9c84298a3301a44c7aa0f153ba84c585.bundle
+    FileCRC32: 6eacd0b3
+  - PackageName: GameData
+    FileName: a61ab0daaea029669cbbe0efad50621b.bundle
+    FileCRC32: 6f25938a
+  - PackageName: GameData
+    FileName: a8227c977c996c1b7a4d618a36448158.bundle
+    FileCRC32: 0d29b703
+  - PackageName: GameData
+    FileName: ae6e95456a444a44532e70fac4ee8678.bundle
+    FileCRC32: 77b12f44
+  - PackageName: GameData
+    FileName: b213acb5e3a7626913a73d6d8d754194.bundle
+    FileCRC32: 5df39c63
+  - PackageName: GameData
+    FileName: b8055b8c10fbbb1e987dc05ee6c554c2.bundle
+    FileCRC32: 91260402
+  - PackageName: GameData
+    FileName: baa9e6149751295dd6e8c9ba0d06f6f8.bundle
+    FileCRC32: 5a04f94b
+  - PackageName: GameData
+    FileName: bae29c6e5fef36d426d3d9c9931c061f.bundle
+    FileCRC32: 4f013ba4
+  - PackageName: GameData
+    FileName: bd8fc1edcedfb9fb0c868711b2cd478e.bundle
+    FileCRC32: fe6cf827
+  - PackageName: GameData
+    FileName: bfdd0f68fe0c255abe60596d44e3682f.bundle
+    FileCRC32: fdb87201
+  - PackageName: GameData
+    FileName: c336c83d35036573f123985292fc4900.bundle
+    FileCRC32: e3ba5852
+  - PackageName: GameData
+    FileName: c3b6552b0fd6effa23d38444dae85aa1.bundle
+    FileCRC32: 9b20fda9
+  - PackageName: GameData
+    FileName: ca78dc0470cd0f456ddae28e99efdacb.bundle
+    FileCRC32: 46573424
+  - PackageName: GameData
+    FileName: ce2f62ade48659a866aa8b495da117fc.bundle
+    FileCRC32: f8114081
+  - PackageName: GameData
+    FileName: cea93a27a13078e2b5e27af1b4651174.bundle
+    FileCRC32: 741692d8
+  - PackageName: GameData
+    FileName: d1bc339d04e763c433c03c7cb2837b32.bundle
+    FileCRC32: 8abbb125
+  - PackageName: GameData
+    FileName: d82ad55e3d81abb3136ebe0b932916eb.bundle
+    FileCRC32: dd831967
+  - PackageName: GameData
+    FileName: dd0190cbb16342155f8e64c152e8d513.bundle
+    FileCRC32: 16428c41
+  - PackageName: GameData
+    FileName: e25f12fae8f1ba724e6ce5f166d10f00.bundle
+    FileCRC32: e6e73ab5
+  - PackageName: GameData
+    FileName: e4910d8f6e13682ed8eaec1e574fb4a9.bundle
+    FileCRC32: b30816da
+  - PackageName: GameData
+    FileName: e6a27c172f3174c58dc0d12ce7535776.bundle
+    FileCRC32: 9ddd1290
+  - PackageName: GameData
+    FileName: ebb7ead6ab7b37d8a0e44a2ac7cc5fb9.bundle
+    FileCRC32: d9b7a19e
+  - PackageName: GameData
+    FileName: ef50efdf920c3e3bd517b74d4064135a.bundle
+    FileCRC32: ec6690d4
+  - PackageName: GameData
+    FileName: f747819f4baef8f747ed40f587d4a099.bundle
+    FileCRC32: 63653c4a
+  - PackageName: GameData
+    FileName: f9c640d2d494fd4c25c3bdf9645812cb.bundle
+    FileCRC32: e9dc910f
+  - PackageName: GameData
+    FileName: ffde8d69a32ed7ad73fdee9d4151a9b6.bundle
+    FileCRC32: 8da423ac

@@ -1,0 +1,15 @@
+em_be.png
+size:520,520
+filter:Linear,Linear
+pma:true
+baby
+bounds:2,11,361,513
+rotate:90
+face_fun
+bounds:311,374,150,141
+fun
+bounds:167,466,55,49
+mieng
+bounds:224,463,85,52
+tear
+bounds:2,469,163,46

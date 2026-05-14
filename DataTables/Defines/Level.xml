@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module name="game">
+  <bean name="Level">
+    <var name="id" type="int"/>
+    <var name="title" type="string"/>
+    <var name="tip" type="string"/>
+    <var name="time" type="int"/>
+    <var name="target_score" type="int"/>
+    <var name="image_path1" type="string"/>
+    <var name="image_path2" type="string"/>
+    <var name="image_path3" type="string"/>
+    <var name="tip_infos" type="list,string"/>
+  </bean>
+  <table name="TbLevel" value="Level" input="level.xlsx"/>
+</module>

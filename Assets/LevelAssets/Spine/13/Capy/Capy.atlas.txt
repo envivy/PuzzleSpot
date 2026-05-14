@@ -1,0 +1,20 @@
+Capy.png
+size:808,740
+filter:Linear,Linear
+pma:true
+Body
+bounds:2,2,575,804
+rotate:90
+mong_1
+bounds:2,579,169,156
+offsets:8,8,182,166
+mong_2
+bounds:173,579,169,156
+offsets:8,8,182,166
+
+Capy_2.png
+size:580,808
+filter:Linear,Linear
+pma:true
+Shape 3
+bounds:2,2,575,804

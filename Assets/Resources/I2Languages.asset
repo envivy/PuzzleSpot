@@ -1,0 +1,2589 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: ADisNotReady
+      TermType: 0
+      Description: 
+      Languages:
+      - AD is not ready
+      - "\u0627\u0644\u0625\u0639\u0644\u0627\u0646\u0E44\u0E21\u0E48 \u062C\u0627\u0647\u0632"
+      - AD is not ready
+      - "Los anuncios no est\xE1n listos"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Answer
+      TermType: 0
+      Description: 
+      Languages:
+      - Answer
+      - "\u0627\u0644\u0625\u062C\u0627\u0628\u0629"
+      - Answer
+      - Respuesta
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: COMPLETE
+      TermType: 0
+      Description: 
+      Languages:
+      - COMPLETE
+      - "\u0645\u064F\u0643\u0645\u0644"
+      - COMPLETE
+      - COMPLETO
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: CONTINUE
+      TermType: 0
+      Description: 
+      Languages:
+      - CONTINUE
+      - "\u0645\u062A\u0627\u0628\u0639\u0629"
+      - CONTINUE
+      - CONTINUAR
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Claim
+      TermType: 0
+      Description: 
+      Languages:
+      - Claim
+      - "\u0637\u0627\u0644\u0628"
+      - Claim
+      - Reclamar
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: ClaimVideoTip
+      TermType: 0
+      Description: 
+      Languages:
+      - 'You can claim the reward after
+
+        watch ads video for 4 more time'
+      - "\u062A\u0633\u062A\u0637\u064A\u0639 \u0645\u0637\u0627\u0644\u0628\u062A\u0647
+        \u0627\u0644\u062C\u0627\u0626\u0632\u0629 \u0628\u0639\u062F \u0645\u0634\u0627\u0647\u062F\u0629
+        \u0625\u0639\u0644\u0627\u0646 \u0623\u0642\u0644\u0647\u0627 4 \u0645\u0631\u0627\u062A"
+      - "Voc\xEA pode claiming o pr\xEAmio ap\xF3s assistir a 4 v\xEDdeos de an\xFAncio
+        a mais."
+      - "Puedes reclamar la recompensa despu\xE9s de ver 4 v\xEDdeos publicitarios
+        m\xE1s."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Continue
+      TermType: 0
+      Description: 
+      Languages:
+      - Continue
+      - "\u0645\u062A\u0627\u0628\u0639\u0629"
+      - Continue
+      - Continuar
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: ContinuePlay
+      TermType: 0
+      Description: 
+      Languages:
+      - Do you want to continue playing?
+      - "\u0647\u0644 \u062A\u0631\u064A\u062F \u0645\u062A\u0627\u0628\u0639\u0629
+        \u0627\u0644\u0644\u0639\u0628\u061F"
+      - Deseja continuar jogando?
+      - "\xBFQuieres continuar jugando?"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: English
+      TermType: 0
+      Description: 
+      Languages:
+      - English
+      - "\u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629"
+      - English
+      - "Ingl\xE9s"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: FAILED
+      TermType: 0
+      Description: 
+      Languages:
+      - FAILED
+      - "\u0641\u0634\u0644"
+      - FAILED
+      - FALLIDO
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: FeedBack
+      TermType: 0
+      Description: 
+      Languages:
+      - Please give us your feedback with 5 stars.Thank you!
+      - "\u0645\u0646 \u0641\u0636\u0644\u0643 \u0623\u0639\u0637\u0646\u0627 \u0631\u0623\u064A\u0643
+        \u0628\u2299 \u0646\u062C\u0648\u0645. \u0634\u0643\u0631\u064B\u0627 \u0644!"
+      - "Por favor, d\xEA-nos seu feedback com 5 estrelas. Obrigado!"
+      - "Por favor, d\xE9janos tu opini\xF3n con 5 estrellas. \xA1Gracias!"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: GetHint
+      TermType: 0
+      Description: 
+      Languages:
+      - Get Hint
+      - "\u0627\u0644\u062D\u0635\u0648\u0644 \u0639\u0644\u0649 \u062A\u0644\u0645\u064A\u062D"
+      - Get Hint
+      - Obtener pista
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: HaveSkipLevel
+      TermType: 0
+      Description: 
+      Languages:
+      - "You have skipped \nthis level"
+      - "\u0644\u0642\u062F \u062A\u062E\u0637\u064A\u062A \u0647\u0630\u0627 \u0627\u0644\u0645\u0633\u062A\u0648\u0649"
+      - "Voc\xEA pulou este n\xEDvel."
+      - 'Has saltado
+
+        este nivel'
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Hint
+      TermType: 0
+      Description: 
+      Languages:
+      - Hint
+      - "\u062A\u0644\u0645\u064A\u062D"
+      - Hint
+      - Pista
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LEVEL
+      TermType: 0
+      Description: 
+      Languages:
+      - LEVEL
+      - "\u0627\u0644\u0645\u0633\u062A\u0648\u0649"
+      - LEVEL
+      - NIVEL
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Lang
+      TermType: 0
+      Description: 
+      Languages:
+      - EN
+      - "\u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629"
+      - Ling
+      - ING
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level10Tips0
+      TermType: 0
+      Description: 
+      Languages:
+      - Pull the carpet, then take the mosquito racket to kill mosquitoes
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0633\u062C\u0627\u062F\u0629\u060C
+        \u062B\u0645 \u0623\u062E\u064F\u0630 \u0639\u0635\u0627\u0629 \u0627\u0644\u0642\u062A\u0627\u0644
+        \u0627\u0644\u062C\u0631\u0627\u0626\u062F \u0644\u0642\u062A\u0644 \u0627\u0644\u062C\u0631\u0627\u062F."
+      - "Puxe a moeda para o ch\xE3o"
+      - "Tira la alfombra, luego toma el raquet\xF3n para mosquitos para matarlos."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level10Tips1
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the bedside drawer, take the lighter to light mosquito incense
+      - "\u0627\u0641\u062A\u062D \u062F\u0631\u062C \u0627\u0644\u0633\u0631\u064A\u0631
+        \u0627\u0644\u062C\u0627\u0646\u0628\u064A\u060C \u062E\u0630 \u0627\u0644\u0648\u0644\u0627\u0639\u0629
+        \u0644\u0625\u0634\u0639\u0627\u0644 \u0628\u062E\u0648\u0631 \u0627\u0644\u0628\u0639\u0648\u0636"
+      - Jogue o marido pela janela com sua amante
+      - "Abre el caj\xF3n de la mesita de noche, toma el encendedor para encender
+        el incienso contra mosquitos."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level10Tips10
+      TermType: 0
+      Description: 
+      Languages:
+      - When the girl's leg is no longer swollen, pull the blanket to help her sleep
+      - "\u0639\u0646\u062F\u0645\u0627 \u062A\u0632\u064A\u0644 \u0627\u0644\u062Aumo\u0627\u0631
+        \u0639\u0646 \u0633\u0627\u0642 \u0627\u0644\u0641\u062A\u0627\u0629\u060C
+        \u0627\u0633\u062D\u0628 \u0627\u0644\u063A\u0637\u0627\u0621 \u0644\u0644\u0645\u0633\u0627\u0639\u062F\u0629
+        \u0639\u0644\u064A\u0647\u0627 \u0627\u0644\u0646\u0648\u0645."
+      - Puxe a moeda para a mesa
+      - "Cuando la pierna de la chica ya no est\xE9 inflamada, tira la manta para
+        ayudarla a dormir."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level10Tips2
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the wardrobe, give the girl a nightgown
+      - "\u0627\u0641\u062A\u062D \u062E\u0632\u0646\u0629 \u0627\u0644\u0645\u0644\u0627\u0628\u0633\u060C
+        \u0623\u0639\u0637 \u0627\u0644\u0641\u062A\u0627\u0629 \u0641\u0633\u062A\u0627\u0646
+        \u0644\u064A\u0644\u0627\u0648\u064A."
+      - Puxe a moeda para a comida
+      - "Abre el armario, dale a la chica un camis\xF3n."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level10Tips3
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the wardrobe, give the girl a blanket
+      - " \u0627\u0641\u062A\u062D \u062E\u0632\u0646\u0629 \u0627\u0644\u0645\u0644\u0627\u0628\u0633\u060C
+        \u0623\u0639\u0637 \u0627\u0644\u0641\u062A\u0627\u0629 \u063A\u0637\u0627\u0621."
+      - Puxe a moeda para a cama
+      - Abre el armario, dale a la chica una manta.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level10Tips4
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the spray behind the pillow to kill mosquitoes
+      - " \u0623\u062E\u064F\u0630 \u0627\u0644\u0631\u0634\u0627\u0637 \u062E\u0644\u0641
+        \u0627\u0644\u0648\u0633\u0627\u062F\u0629 \u0644\u0642\u062A\u0644 \u0627\u0644\u062C\u0631\u0627\u062F."
+      - Puxe a moeda para a garota
+      - "Toma el aerosol detr\xE1s de la almohada para matar mosquitos."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level10Tips5
+      TermType: 0
+      Description: 
+      Languages:
+      - Pull the spider web to make a curtain for the girl
+      - "\u0627\u0633\u062D\u0628 \u0634\u0628\u0643\u0629 \u0627\u0644\u0639\u0646\u0643\u0628\u0648\u062A
+        \u0644\u0635\u0646\u0639 \u0645\u0646\u0628\u0631\u0629 \u0644\u0644\u0641\u062A\u0627\u0629."
+      - Puxe a moeda para a janela
+      - "Tira de la telara\xF1a de ara\xF1a para hacerle una cortina a la chica."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level10Tips6
+      TermType: 0
+      Description: 
+      Languages:
+      - Turn on the ceiling fan with the red switch
+      - "\u0642\u0645 \u0628\u062A\u062D\u0648\u064A\u0644 \u0645\u0631\u0648\u062D
+        \u0627\u0644\u0633\u0642\u0641 \u0628\u0627\u0644\u0634\u0628\u0643\u0629
+        \u0627\u0644\u062D\u0645\u0631\u0627\u0621."
+      - Empurre a moeda para a porta principal
+      - Enciende el abanico de techo con el interruptor rojo.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level10Tips7
+      TermType: 0
+      Description: 
+      Languages:
+      - Light the oil lamp to drive away mosquitoes
+      - "\u0627\u0631\u0642\u064A \u0645\u0635\u0628\u0627\u062D \u0627\u0644\u0632\u064A\u062A
+        \u0644\u0637\u0631\u062F \u0627\u0644\u062C\u0631\u0627\u062F."
+      - "Puxe a moeda para a l\xE2mpada"
+      - "Enciende la l\xE1mpara de aceite para ahuyentar los mosquitos."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level10Tips8
+      TermType: 0
+      Description: 
+      Languages:
+      - Pull the curtain and see what happens
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0643\u0648\u0631\u0637\u064A\u0646
+        \u0648\u0627\u0631\u0649 \u0645\u0627\u0630\u0627 \u064A\u062D\u062F\u062B."
+      - "Puxe o dinheiro para o rel\xF3gio"
+      - Tira las cortinas y ve lo que sucede.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level10Tips9
+      TermType: 0
+      Description: 
+      Languages:
+      - After driving away all the mosquitoes, give the girl the ointment tube from
+        the drawer
+      - "\u0628\u0639\u062F \u0637\u0631\u062F \u0643\u0644 \u0627\u0644\u062C\u0631\u0627\u062F\u060C
+        \u0623\u0639\u0637 \u0627\u0644\u0641\u062A\u0627\u0629 \u0623\u0646\u0628\u0648\u0628
+        \u0627\u0644\u0634\u0645 Poultice \u0645\u0646 \u0627\u0644\u0639\u0635\u0646."
+      - Puxe o dinheiro para o tapete rasgado
+      - "Despu\xE9s de ahuyentar a todos los mosquitos, dale a la chica la tuber\xEDa
+        de ung\xFCento del caj\xF3n."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level11Tips0
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the boy's shirt from afa
+      - "\u0623\u062E\u064F\u0630 \u0642\u0645\u064A\u0635 \u0627\u0644\u0635\u0628\u064A
+        \u0645\u0646 afa."
+      - "Coloque o beb\xEA na cama de crian\xE7a."
+      - Toma la camisa del chico de [afa]
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level11Tips1
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the cloud from the sky
+      - "\u062E\u062F \u0627\u0644\u0633\u062D\u0627\u0628\u0629 \u0645\u0646 \u0627\u0644\u0633\u0645\u0627\u0621"
+      - "Abra a porta principal e de dinheiro ao remetente para obter a caixa de
+        leite para o beb\xEA"
+      - Toma la nube del cielo.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level11Tips2
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the white flower
+      - "\u0627\u062E\u062F \u0627\u0644\u0632\u0647\u0631\u0629 \u0627\u0644\u0628\u064A\u0636\u0629"
+      - Puxe o dinheiro para o buraco do rato
+      - Toma la flor blanca.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level11Tips3
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the newspaper on the chair
+      - "\u062E\u0630 \u0627\u0644\u062C\u0631\u064A\u062F\u0629 \u0627\u0644\u0644\u064A
+        \u0639\u0644\u0649 \u0627\u0644\u0643\u0631\u0633\u064A"
+      - Pegue o jornal na cadeira
+      - "Toma el peri\xF3dico de la silla."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level11Tips4
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the bird's feather
+      - "\u062E\u0630 \u0631\u064A\u0634\u0629 \u0627\u0644\u0637\u0627\u0626\u0631"
+      - "Pegue a pena do p\xE1ssaro"
+      - "Toma la pluma del p\xE1jaro."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level11Tips5
+      TermType: 0
+      Description: 
+      Languages:
+      - Use scissors to cut the cat's fur, then give it to the boy
+      - "\u0627\u0633\u062A\u062E\u062F\u0645 \u0627\u0644\u0645\u0642\u0635 \u0639\u0634\u0627\u0646
+        \u062A\u0642\u0635 \u0634\u0639\u0631 \u0627\u0644\u0642\u0637\u060C \u0628\u0639\u062F\u064A\u0646
+        \u0627\u062F\u064A\u0644\u0647 \u0644\u0644\u0648\u0644\u062F."
+      - "Use tesoura para cortar o pelo do gato, depois d\xEA ao menino"
+      - "Usa las tijeras para cortar el pelaje del gato, luego d\xE1selo al ni\xF1o."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level11Tips6
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the hair of the boy sitting on the toilet
+      - "\u062E\u062F \u0634\u0639\u0631 \u0627\u0644\u0648\u0644\u062F \u0627\u0644\u0644\u064A
+        \u0642\u0627\u0639\u062F \u0639\u0644\u0649 \u0627\u0644\u062A\u0648\u0627\u0644\u064A\u062A."
+      - Pegue o cabelo do menino sentado no banheiro
+      - "Toma el cabello del ni\xF1o sentado en el inodoro."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level11Tips7
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the sock of the boy sitting on the toilet
+      - "\u062E\u062F \u062C\u0648\u0631\u0628 \u0627\u0644\u0648\u0644\u062F \u0627\u0644\u0644\u064A
+        \u0642\u0627\u0639\u062F \u0639\u0644\u0649 \u0627\u0644\u062D\u0645\u0627\u0645."
+      - Pegue o sapato do menino sentado no banheiro
+      - "Toma el calcet\xEDn del ni\xF1o sentado en el inodoro."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level11Tips8
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the bush behind the chair
+      - "\u062E\u062F \u0627\u0644\u0634\u062C\u064A\u0631\u0629 \u0627\u0644\u0644\u064A
+        \u0648\u0631\u0627 \u0627\u0644\u0643\u0631\u0633\u064A"
+      - "Pegue a vegeta\xE7\xE3o atr\xE1s da cadeira "
+      - "Toma el arbusto detr\xE1s de la silla."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level12Tips0
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the floor
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u0623\u0631\u0636."
+      - "Arraste o dinheiro para o ch\xE3o"
+      - Arrastra el dinero hasta el suelo.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level12Tips1
+      TermType: 0
+      Description: 
+      Languages:
+      - Throw the husband out of the window with his mistress
+      - "\u0627\u0642\u0630\u0641 \u0627\u0644\u0632\u0648\u062C \u0645\u0646 \u0627\u0644\u0634\u0628\u0627\u0643
+        \u0645\u0639 \u0639\u0634\u064A\u0642\u062A\u0647."
+      - Jogue o marido pela janela com sua amante
+      - Echa al marido por la ventana con su amante.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level12Tips10
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the table
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u0637\u0627\u0648\u0644\u0629"
+      - Arraste o dinheiro para a mesa
+      - Arrastra el dinero hasta la mesa.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level12Tips11
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the food
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u0623\u0643\u0644"
+      - Arraste o dinheiro para a comida
+      - Arrastra el dinero hasta la comida.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level12Tips12
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the bed
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u0633\u0631\u064A\u0631."
+      - Arraste o dinheiro para a cama
+      - Arrastra el dinero hasta la cama.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level12Tips13
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the girl
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u0628\u0646\u062A."
+      - Arraste o dinheiro para a garota
+      - Arrastra el dinero hasta la chica.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level12Tips2
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the window
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u0634\u0628\u0627\u0643"
+      - Arraste o dinheiro para a janela
+      - Arrastra el dinero hasta la ventana.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level12Tips3
+      TermType: 0
+      Description: 
+      Languages:
+      - rag the money onto the front door
+      - "\u0634\u062F \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649 \u0628\u0627\u0628
+        \u0627\u0644\u0628\u064A\u062A."
+      - Arraste o dinheiro para a porta principal
+      - Arrastra el dinero hasta la puerta principal.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level12Tips4
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the light bulb
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u0645\u0635\u0628\u0627\u062D."
+      - "Arraste o dinheiro para a l\xE2mpada"
+      - Arrastra el dinero hasta la bombilla.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level12Tips5
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money to the clock
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u0633\u0627\u0639\u0629."
+      - "Arraste o dinheiro para o rel\xF3gio"
+      - Arrastra el dinero hasta el reloj.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level12Tips6
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money to the torn mat
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u062D\u0635\u064A\u0631\u0629 \u0627\u0644\u0645\u0642\u0637\u0648\u0639\u0629."
+      - Arraste o dinheiro para o tapete rasgado
+      - Arrastra el dinero hasta la alfombra desgarrada.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level12Tips7
+      TermType: 0
+      Description: 
+      Languages:
+      - Put the baby in the crib.
+      - "\u062D\u0637 \u0627\u0644\u0628\u064A\u0628\u064A \u0641\u064A \u0627\u0644\u0633\u0631\u064A\u0631."
+      - "Coloque o beb\xEA na cama de crian\xE7a."
+      - "Pon al beb\xE9 en la cuna."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level12Tips8
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the main door give money to the shipper to get the milk box for the
+        baby
+      - "\u0627\u0641\u062A\u062D \u0627\u0644\u0628\u0627\u0628 \u0627\u0644\u0631\u0626\u064A\u0633\u064A
+        \u0648\u0627\u062F\u0651\u064A \u0641\u0644\u0648\u0633 \u0644\u0644\u0634\u0627\u062D\u0646
+        \u0639\u0634\u0627\u0646 \u064A\u062C\u064A\u0628 \u0639\u0644\u0628\u0629
+        \u0627\u0644\u062D\u0644\u064A\u0628 \u0644\u0644\u0628\u064A\u0628\u064A."
+      - "Abra a porta principal e d\xEA dinheiro ao remetente para obter a caixa
+        de leite para o beb\xEA"
+      - "Abre la puerta principal y dale dinero al repartidor para obtener la caja
+        de leche para el beb\xE9."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level12Tips9
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money into the mouse hole
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0641\u064A
+        \u062D\u0641\u0631\u0629 \u0627\u0644\u0641\u0623\u0631."
+      - Arraste o dinheiro para o buraco do rato
+      - "Arrastra el dinero al agujero del rat\xF3n."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level13Tips0
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the hand to the capybara
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u064A\u062F \u0639\u0644\u0649 \u0627\u0644\u0643\u0627\u0628\u064A\u0628\u0627\u0631\u0627"
+      - "Arraste a m\xE3o para o capivara"
+      - Arrastra la mano hasta la capybara.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level13Tips1
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the plunger to the toilet with the hand
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0645\u062D\u0642\u0646\u0629 \u0644\u0644\u062D\u0645\u0627\u0645
+        \u0628\u0625\u064A\u062F\u0643."
+      - "Arrastar o desentupidor para a sanita com a m\xE3o"
+      - Arrastra el desatascador hasta el inodoro con la mano
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level13Tips2
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the slipper to the cockroach
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0634\u0628\u0634\u0628 \u0639\u0644\u0649
+        \u0627\u0644\u0635\u0631\u0635\u0648\u0631"
+      - Arraste a chinelo para a barata
+      - Arrastra la chancla hasta la cucaracha.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level13Tips3
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the bottle cap to the capybara's butt
+      - "\u0627\u0633\u062D\u0628 \u063A\u0637\u0627\u0621 \u0627\u0644\u0632\u062C\u0627\u062C\u0629
+        \u0646\u0627\u062D\u064A\u0629 \u0645\u0624\u062E\u0631\u0629 \u0627\u0644\u0643\u0627\u0628\u064A\u0628\u0627\u0631\u0627."
+      - Arraste a tampa da garrafa para o rabo do capivara
+      - Arrastra la tapa de la botella hasta el trasero de la capybara.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level13Tips4
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the brush to the stain(0/5)
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0631\u0634\u0627\u0629 \u0639\u0644\u0649
+        \u0627\u0644\u0628\u0642\u0639\u0629 (0/5)"
+      - Arraste o pincel para a mancha (0/5)
+      - Arrastra el cepillo hasta la mancha (0/5).
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level13Tips5
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the newspaper to the window
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u062C\u0631\u064A\u062F\u0629 \u0644\u0644\u0646\u0627\u0641\u0630\u0629"
+      - Arraste o jornal para a janela
+      - "Arrastra el peri\xF3dico hasta la ventana."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level13Tips6
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the tape to the newspaper on the window
+      - "\u0625\u0633\u062D\u0628 \u0627\u0644\u0634\u0631\u064A\u0637 \u0644\u0644\u062C\u0631\u0646\u0627\u0644
+        \u0627\u0644\u0644\u064A \u0639\u0644\u0649 \u0627\u0644\u0634\u0628\u0627\u0643"
+      - Arraste a fita para o jornal na janela
+      - "Arrastra la cinta adhesiva hasta el peri\xF3dico en la ventana."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level13Tips7
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the girl into the toilet
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u062A\u0627\u0629 \u0625\u0644\u0649
+        \u062D\u064A\u062B \u0635\u0648\u062A \u0627\u0644\u0635\u0631\u0627\u062E
+        \u0641\u064A \u0627\u0644\u0645\u0631\u062D\u0627\u0636."
+      - Arraste a garota para o banheiro
+      - Arrastra a la chica al inodoro.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level13Tips8
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the toilet paper to the girl
+      - "\u0627\u0633\u062D\u0628 \u0648\u0631\u0642 \u0627\u0644\u062D\u0645\u0627\u0645
+        \u0644\u0644\u0628\u0646\u062A."
+      - "Arraste o papel higi\xEAnico para a garota"
+      - "Arrastra el papel higi\xE9nico hasta la chica."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level13Tips9
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the curtain to the girl
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0633\u062A\u0627\u0631\u0629 \u0644\u0644\u0628\u0646\u062A."
+      - Arraste o guarda-roupa para a garota
+      - Arrastra las cortinas hasta la chica.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level1Tips0
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the wall
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u062D\u064A\u0637\u0629"
+      - Arraste o dinheiro para a parede
+      - Arrastra el dinero hasta la pared.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level1Tips1
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the floor
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u0623\u0631\u0636"
+      - "Arraste o dinheiro para o ch\xE3o"
+      - Arrastra el dinero hasta el suelo.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level1Tips10
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the dining table
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0637\u0631\u0627\u0628\u064A\u0632\u0629 \u0627\u0644\u0623\u0643\u0644."
+      - Arraste o dinheiro para a mesa de jantar
+      - Arrastra el dinero hasta la mesa del comedor.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level1Tips11
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the window
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u0634\u0628\u0627\u0643"
+      - Arraste o dinheiro para a janela
+      - Arrastra el dinero hasta la ventana.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level1Tips12
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money into the mouse hole
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0641\u064A
+        \u062D\u0641\u0631\u0629 \u0627\u0644\u0641\u0623\u0631."
+      - Arraste o dinheiro para o buraco do rato
+      - "Arrastra el dinero al agujero del rat\xF3n."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level1Tips13
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the front door
+      - "\u0627\u0641\u062A\u062D \u0627\u0644\u0628\u0627\u0628 \u0627\u0644\u0623\u0645\u0627\u0645\u064A"
+      - Abra a porta frontal
+      - Abre la puerta principal.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level1Tips14
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money to the poor girl
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0644\u0644\u0628\u0646\u062A
+        \u0627\u0644\u0645\u0633\u0643\u064A\u0646\u0629"
+      - Arraste o dinheiro para a garota pobre
+      - "Arrastra el dinero hasta la ni\xF1a pobre."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level1Tips2
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the bed
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u0633\u0631\u064A\u0631"
+      - Arraste o dinheiro para a cama
+      - Arrastra el dinero hasta la cama.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level1Tips3
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the quilt
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u0628\u0637\u0627\u0646\u064A\u0629."
+      - Arraste o dinheiro para a cobertura
+      - Arrastra el dinero hasta la colcha.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level1Tips4
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the grandmother
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u062C\u062F\u0629"
+      - "Arraste o dinheiro para a av\xF3"
+      - Arrastra el dinero hasta la abuela.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level1Tips5
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the grandfather
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u062C\u062F"
+      - "Arraste o dinheiro para o av\xF4"
+      - Arrastra el dinero hasta el abuelo.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level1Tips6
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the lamp shelf
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0631\u0641 \u0627\u0644\u0645\u0635\u0628\u0627\u062D"
+      - "Arraste o dinheiro para a prateleira da l\xE2mpada"
+      - "Arrastra el dinero hasta el estante de la l\xE1mpara."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level1Tips7
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the lamp item
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0639\u0646\u0635\u0631 \u0627\u0644\u0645\u0635\u0628\u0627\u062D"
+      - "Arraste o dinheiro para o item da l\xE2mpada"
+      - "Arrastra el dinero hasta el art\xEDculo de la l\xE1mpara."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level1Tips8
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money into the fireplace
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0641\u064A
+        \u0627\u0644\u0645\u062F\u0641\u0623\u0629"
+      - Arraste o dinheiro para a lareira
+      - Arrastra el dinero hasta la chimenea.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level1Tips9
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the money onto the food on the table
+      - "\u0625\u0633\u062D\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0639\u0644\u0649
+        \u0627\u0644\u0623\u0643\u0644 \u0627\u0644\u0645\u0648\u062C\u0648\u062F
+        \u0639\u0644\u0649 \u0627\u0644\u062A\u0631\u0627\u0628\u064A\u0632\u0629."
+      - Arraste o dinheiro para a comida na mesa
+      - Arrastra el dinero hasta la comida de la mesa.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level2Tips0
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the window
+      - "\u0627\u0641\u062A\u062D \u0627\u0644\u0634\u0628\u0627\u0643"
+      - Abra a janela
+      - Abre la ventana.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level2Tips1
+      TermType: 0
+      Description: 
+      Languages:
+      - Flip the pillow on the bed
+      - "\u0627\u0642\u0644\u0628 \u0627\u0644\u0645\u062E\u062F\u0629 \u0639\u0644\u0649
+        \u0627\u0644\u0633\u0631\u064A\u0631"
+      - Vire o travesseiro da cama
+      - Voltea la almohada de la cama.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level2Tips2
+      TermType: 0
+      Description: 
+      Languages:
+      - Push the wardrobe to the left
+      - "\u0627\u062F\u0641\u0639 \u062F\u0648\u0644\u0627\u0628 \u0627\u0644\u0645\u0644\u0627\u0628\u0633
+        \u0639\u0644\u0649 \u0627\u0644\u0634\u0645\u0627\u0644"
+      - Empurre o guarda-roupa para a esquerda
+      - Empuja el armario hacia la izquierda.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level2Tips3
+      TermType: 0
+      Description: 
+      Languages:
+      - Flip the carpet on the floor, then open the hatch
+      - "\u0627\u0642\u0644\u0628 \u0627\u0644\u0633\u062C\u0627\u062F\u0629 \u0639\u0644\u0649
+        \u0627\u0644\u0623\u0631\u0636\u060C \u0648\u0628\u0639\u062F\u064A\u0646
+        \u0627\u0641\u062A\u062D \u0627\u0644\u0641\u062A\u062D\u0629."
+      - "Vire a moeda no ch\xE3o, depois abra a hatche"
+      - Voltea la alfombra del suelo, luego abre la escotilla.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level2Tips4
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the fridge door, move the food blocking the front(0/3)
+      - "\u0627\u0641\u062A\u062D \u0628\u0627\u0628 \u0627\u0644\u062B\u0644\u0627\u062C\u0629
+        \u0648\u062D\u0631\u0651\u0643 \u0627\u0644\u0637\u0639\u0627\u0645 \u0627\u0644\u0630\u064A
+        \u064A\u062D\u062C\u0628 \u0627\u0644\u062C\u0647\u0629 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u0629
+        (0/3)"
+      - Abra a porta da geladeira, mova a comida que bloqueia a frente (0/3)
+      - Abre la puerta de la nevera, mueve la comida que bloquea el frente (0/3).
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level3Tips0
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the energy drink to the girl
+      - "\u0627\u0633\u062D\u0628 \u0645\u0634\u0631\u0648\u0628 \u0627\u0644\u0637\u0627\u0642\u0629
+        \u0644\u0644\u0628\u0646\u062A"
+      - "Arraste a bebida energ\xE9tica para a garota"
+      - "Arrastra la bebida energ\xE9tica hasta la chica."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level3Tips1
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the chocolate bar to the girl
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0634\u0648\u0643\u0648\u0644\u0627\u062A\u0629
+        \u0644\u0644\u0628\u0646\u062A."
+      - Arraste a barra de chocolate para a garota
+      - Arrastra la barra de chocolate hasta la chica.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level3Tips2
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the cockroach to the mother
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0635\u0631\u0635\u0648\u0631 \u0644\u0644\u0645\u0627\u0645\u0651\u0627"
+      - "Arraste a barata para a m\xE3e"
+      - Arrastra la cucaracha hasta la madre.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level3Tips3
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the window, drag the empty water cup to the cow, then drag the glass
+        of milk back to the girl
+      - "\u0627\u0641\u062A\u062D \u0627\u0644\u0634\u0628\u0627\u0643\u060C \u0627\u0633\u062D\u0628
+        \u0627\u0644\u0643\u0648\u0628 \u0627\u0644\u0641\u0627\u0636\u064A \u0644\u0644\u0645\u064A\u0627\u0647
+        \u0644\u0644\u0628\u0642\u0631\u0629\u060C \u0628\u0639\u062F\u064A\u0646
+        \u0627\u0633\u062D\u0628 \u0643\u0623\u0633 \u0627\u0644\u0644\u0628\u0646
+        \u0644\u0644\u0628\u0646\u062A."
+      - Abra a janela, arraste o copo vazio para a vaca, depois arraste o copo de
+        leite de volta para a garota
+      - "Abre la ventana, arrastra el vaso vac\xEDo hasta la vaca, luego arrastra
+        el vaso de leche de vuelta a la chica."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level3Tips4
+      TermType: 0
+      Description: 
+      Languages:
+      - ' Drag the glass of water to the girl'
+      - "\u0627\u0633\u062D\u0628 \u0643\u0648\u0628\u0627 \u0627\u0644\u0645\u064A\u0629
+        \u0644\u0644\u0628\u0646\u062A."
+      - "Arraste o copo de \xE1gua para a garota"
+      - Arrastra el vaso de agua hasta la chica.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level3Tips5
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the vegetables to the girl
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u062E\u0636\u0627\u0631 \u0644\u0644\u0628\u0646\u062A."
+      - Arraste os vegetais para a garota
+      - Arrastra las verduras hasta la chica.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level3Tips6
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the microphone to the mother
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0645\u064A\u0643\u0631\u0648\u0641\u0648\u0646
+        \u0644\u0644\u0627\u0645."
+      - "Arraste o microfone para a m\xE3e"
+      - "Arrastra el micr\xF3fono hasta la madre."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level3Tips7
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the dumbbell to the girl
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u062F\u0645\u0628\u0644 \u0644\u0644\u0628\u0646\u062A."
+      - Arraste a halterefa para a garota
+      - Arrastra la mancuerna hasta la chica.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level3Tips8
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the fan to the girl
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0645\u0631\u0648\u062D\u0629 \u0644\u0644\u0628\u0646\u062A"
+      - Arraste o ventilador para a garota
+      - Arrastra el abanico hasta la chica.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level3Tips9
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the phone from the mother's bag
+      - "\u062E\u062F \u0627\u0644\u062A\u0644\u064A\u0641\u0648\u0646 \u0645\u0646
+        \u0634\u0646\u0637\u0629 \u0627\u0644\u0623\u0645."
+      - "Pegue o telefone da bolsa da m\xE3e"
+      - "Toma el tel\xE9fono del bolso de la madre."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level4Tips0
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the tablecloth to the girl
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0645\u0641\u0631\u0634 \u0644\u0644\u0628\u0646\u062A"
+      - Arraste o guardanapo para a garota
+      - Arrastra el mantel hasta la chica.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level4Tips1
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the curtain to the girl
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0633\u062A\u0627\u0631\u0629 \u0644\u0644\u0628\u0646\u062A."
+      - Arraste a cortina para a garota
+      - Arrastra las cortinas hasta la chica.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level4Tips2
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the wardrobe, then take the blanket from the wardrobe and drag it to
+        the girl
+      - "\u0627\u0641\u062A\u062D \u0627\u0644\u062F\u0648\u0644\u0627\u0628\u060C
+        \u0628\u0639\u062F\u064A\u0646 \u062E\u062F \u0627\u0644\u0628 blanket \u0645\u0646
+        \u0627\u0644\u062F\u0648\u0644\u0627\u0628 \u0648\u0627\u0633\u062D\u0628\u0647
+        \u0644\u0644\u0628\u0646\u062A."
+      - Abra o guarda-roupa, depois pegue a cobertura do guarda-roupa e arraste para
+        a garota
+      - "Abre el armario, luego toma la manta del armario y arr\xE1strala hasta la
+        chica."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level4Tips3
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the front door, take the blanket from the delivery person, and drag
+        it to the girl
+      - "\u0627\u0641\u062A\u062D \u0627\u0644\u0628\u0627\u0628 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u060C
+        \u062E\u0630 \u0627\u0644\u0628\u0637\u0627\u0646\u064A\u0629 \u0645\u0646
+        \u0627\u0644\u0634\u062E\u0635 \u0627\u0644\u0644\u064A \u062C\u0627\u0628\u0647\u0627\u060C
+        \u0648\u062C\u0631\u0647\u0627 \u0644\u0644\u0628\u0646\u062A."
+      - Abra a porta principal, pegue a cobertura do entregador e arraste para a
+        garota
+      - "Abre la puerta principal, toma la manta del repartidor y arr\xE1strala hasta
+        la chica."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level4Tips4
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the scissors from the table and drag them to the cat, then drag the
+        cat's fur onto the girl
+      - "\u062E\u0630 \u0627\u0644\u0645\u0642\u0635 \u0645\u0646 \u0639\u0644\u0649
+        \u0627\u0644\u0637\u0627\u0648\u0644\u0629 \u0648\u0627\u0633\u062D\u0628\u0647
+        \u0644\u0644\u0642\u0637\u060C \u0628\u0639\u062F\u064A\u0646 \u0627\u0633\u062D\u0628
+        \u0641\u0631\u0627\u0621 \u0627\u0644\u0642\u0637 \u0639\u0644\u0649 \u0627\u0644\u0628\u0646\u062A."
+      - Pegue as tesouras da mesa e arraste para o gato, depois arraste o pelo do
+        gato para a garota
+      - "Toma las tijeras de la mesa y arr\xE1stralas hasta el gato, luego arrastra
+        el pelaje del gato hasta la chica."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level4Tips5
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the cat's blanket and drag it to the girl
+      - "\u062E\u062F \u0628\u0637\u0627\u0646\u064A\u0629 \u0627\u0644\u0642\u0637
+        \u0648\u0627\u0633\u062D\u0628\u0647\u0627 \u0644\u0644\u0628\u0646\u062A."
+      - Pegue a cobertura do gato e arraste para a garota
+      - "Toma la manta del gato y arr\xE1strala hasta la chica."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level4Tips6
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the hammer and hit the floor, then drag the blanket to the girl
+      - "\u062E\u0630 \u0627\u0644\u0645\u0637\u0631\u0642\u0629 \u0648\u0627\u0636\u0631\u0628
+        \u0627\u0644\u0623\u0631\u0636\u060C \u0628\u0639\u062F\u064A\u0646 \u0627\u0633\u062D\u0628
+        \u0627\u0644\u0628\u0637\u0627\u0646\u0629 \u0644\u0644\u0628\u0646\u062A."
+      - "Pegue o martelo e bata no ch\xE3o, depois arraste a cobertura para a garota"
+      - Toma el martillo y golpea el suelo, luego arrastra la manta hasta la chica.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level4Tips7
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the leaves outside the window to the girl
+      - "\u0625\u0633\u062D\u0628 \u0627\u0644\u0648\u0631\u0642 \u0628\u0631\u0629
+        \u0645\u0646 \u0627\u0644\u0634\u0628\u0627\u0643 \u0644\u0644\u0628\u0646\u062A."
+      - Arraste as folhas fora da janela para a garota
+      - Arrastra las hojas fuera de la ventana hasta la chica.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level4Tips8
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the girl's wig onto the girl
+      - "\u0627\u0633\u062D\u0628 \u0628\u0627\u0631\u0648\u0643\u0629 \u0627\u0644\u0628\u0646\u062A
+        \u0639\u0644\u0649 \u0627\u0644\u0628\u0646\u062A."
+      - Arraste a peruca da garota para a garota
+      - Arrastra la peluca de la chica hasta ella.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level4Tips9
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the carpet to the girl
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0633\u062C\u0627\u062F\u0629 \u0644\u0644\u0628\u0646\u062A"
+      - Arraste o tapete para a garota
+      - Arrastra la alfombra hasta la chica.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level5Tips0
+      TermType: 0
+      Description: 
+      Languages:
+      - Take down the clock and remove the battery
+      - "\u0625\u0634\u064A\u0644 \u0627\u0644\u0633\u0627\u0639\u0629 \u0648\u0634\u064A\u0644\u064A
+        \u0627\u0644\u0628\u0637\u0627\u0631\u064A\u0629."
+      - "Tire o rel\xF3gio da parede e remova a bateria"
+      - "Baja el reloj y quita la bater\xEDa."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level5Tips1
+      TermType: 0
+      Description: 
+      Languages:
+      - Use tape to seal the vent
+      - "\u0627\u0633\u062A\u062E\u062F\u0645 \u0634\u0631\u064A\u0637 \u0644\u0627\u0642\u0641\u0627\u0644
+        \u0627\u0644\u062A\u0647\u0648\u064A\u0629"
+      - "Use fita adesiva para selar a abertura de ventila\xE7\xE3o"
+      - "Usa cinta adhesiva para sellar la ventilaci\xF3n."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level5Tips2
+      TermType: 0
+      Description: 
+      Languages:
+      - ' Use a hammer to break the mirror'
+      - "\u0627\u0633\u062A\u062E\u062F\u0645 \u0645\u0637\u0631\u0642\u0629 \u0639\u0634\u0627\u0646
+        \u062A\u0643\u0633\u0631 \u0627\u0644\u0645\u0631\u0622\u0629."
+      - Use um martelo para quebrar o espelho
+      - Usa un martillo para romper el espejo.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level5Tips3
+      TermType: 0
+      Description: 
+      Languages:
+      - Use a lock to secure the door
+      - "\u0627\u0633\u062A\u062E\u062F\u0645 \u0642\u0641\u0644 \u0644\u062A\u0623\u0645\u064A\u0646
+        \u0627\u0644\u0628\u0627\u0628"
+      - Use um cadeado para trancar a porta
+      - Usa un candado para cerrar la puerta.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level5Tips4
+      TermType: 0
+      Description: 
+      Languages:
+      - Unplug the computer
+      - "\u0641\u0635\u0644 \u0627\u0644\u0643\u0645\u0628\u064A\u0648\u062A\u0631
+        \u0639\u0646 \u0627\u0644\u0643\u0647\u0631\u0628\u0627\u0621."
+      - Desligue o computador
+      - Desconecta el ordenador.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level5Tips5
+      TermType: 0
+      Description: 
+      Languages:
+      - ' Pull the wooden floor to the left'
+      - "\u0634\u062F \u0627\u0644\u0623\u0631\u0636\u064A\u0629 \u0627\u0644\u062E\u0634\u0628\u064A\u0629
+        \u0639\u0644\u0649 \u0627\u0644\u0634\u0645\u0627\u0644"
+      - 'Empurre o piso de madeira para a esquerda '
+      - Tira el suelo de madera hacia la izquierda.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level5Tips6
+      TermType: 0
+      Description: 
+      Languages:
+      - Pull the blanket over the girl
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0628\u0637\u0646\u064A\u0629 \u0639\u0644\u0649
+        \u0627\u0644\u0628\u0646\u062A"
+      - Cobre a garota com a cobertura
+      - Atira la manta sobre la chica.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level6Tips0
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag all fruit peels and paper trash into the trash bin.
+      - "\u0627\u0633\u062D\u0628 \u0643\u0644 \u0642\u0634\u0648\u0631 \u0627\u0644\u0641\u0627\u0643\u0647\u0629
+        \u0648\u0627\u0644\u0648\u0631\u0642 \u0627\u0644\u0632\u0628\u0627\u0644\u0629
+        \u0641\u064A \u0633\u0644\u0629 \u0627\u0644\u0642\u0645\u0627\u0645\u0629."
+      - Arraste todas as cascas de fruta e lixo de papel para o lixo
+      - "Arrastra todas las c\xE1scaras de fruta y la basura de papel a la papelera."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level6Tips1
+      TermType: 0
+      Description: 
+      Languages:
+      - Hide the mask under the pillow.
+      - "\u0627\u062E\u0641\u064A \u0627\u0644\u0642\u0646\u0627\u0639 \u062A\u062D\u062A
+        \u0627\u0644\u0645\u062E\u062F\u0629."
+      - "Esconda a m\xE1scara debaixo do travesseiro"
+      - Esconde la mascarilla debajo de la almohada.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level6Tips10
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the cards into the toilet, then press the flush button to wash the cards
+        away.
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A
+        \u0644\u0644\u062D\u0645\u0627\u0645\u060C \u0628\u0639\u062F\u064A\u0646
+        \u0627\u0636\u063A\u0637 \u0639\u0644\u0649 \u0632\u0631 \u0627\u0644\u0633\u064A\u0641\u0648\u0646
+        \u0639\u0634\u0627\u0646 \u062A\u0634\u0637\u0641 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A."
+      - "Arraste os cart\xF5es para o banheiro, depois pressione o bot\xE3o de descarga
+        para lavar os cart\xF5es"
+      - "Arrastra las cartas al inodoro, luego presiona el bot\xF3n de descarga para
+        lavar las cartas."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level6Tips11
+      TermType: 0
+      Description: 
+      Languages:
+      - Click on the blanket on the bed to fold it.
+      - "\u0627\u0636\u063A\u0637 \u0639\u0644\u0649 \u0627\u0644\u0628\u0637\u0627\u0646\u064A\u0629
+        \u0639\u0644\u0649 \u0627\u0644\u0633\u0631\u064A\u0631 \u0639\u0634\u0627\u0646
+        \u062A\u0637\u0648\u064A\u0647\u0627."
+      - "Clique na cobertura da cama para dobr\xE1-la"
+      - Haz clic en la manta de la cama para doblarla.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level6Tips2
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the towel hanging on the wall to wipe the shoe marks.
+      - "\u062E\u062F \u0627\u0644\u0645\u0646\u0634\u0641\u0629 \u0627\u0644\u0644\u064A
+        \u0645\u0639\u0644\u0642\u0647 \u0639\u0644\u0649 \u0627\u0644\u062D\u064A\u0637\u0629
+        \u0639\u0634\u0627\u0646 \u062A\u0645\u0633\u062D \u0628\u0647\u0627 \u0622\u062B\u0627\u0631
+        \u0627\u0644\u062D\u0630\u0627\u0621."
+      - Pegue a toalha pendurada na parede para limpar as marcas de sapatos
+      - Toma la toalla colgada en la pared para limpiar las huellas de zapatos.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level6Tips3
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the towel hanging on the wall to clean the stain on the bed.
+      - "\u062E\u0630 \u0627\u0644\u0645\u0646\u0634\u0641\u0629 \u0627\u0644\u0645\u0639\u0644\u0642\u0629
+        \u0639\u0644\u0649 \u0627\u0644\u062D\u0627\u0626\u0637 \u0639\u0634\u0627\u0646
+        \u062A\u0646\u0638\u0641 \u0627\u0644\u0628\u0642\u0639\u0629 \u0639\u0644\u0649
+        \u0627\u0644\u0633\u0631\u064A\u0631."
+      - Pegue a toalha pendurada na parede para limpar a mancha na cama.
+      - Toma la toalla colgada en la pared para limpiar la mancha de la cama.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level6Tips4
+      TermType: 0
+      Description: 
+      Languages:
+      - ' Drag the black shoes for the man to wear.'
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0623\u062D\u0630\u064A\u0629 \u0627\u0644\u0633\u0648\u062F\u0627\u0621
+        \u0639\u0634\u0627\u0646 \u0627\u0644\u0631\u0627\u062C\u0644 \u064A\u0644\u0628\u0633\u0647\u0627."
+      - "Arraste os sapatos pretos para o homem cal\xE7ar."
+      - Arrastra los zapatos negros para que el hombre se los ponga.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level6Tips5
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the jacket for the man to put on.
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u062C\u0627\u0643\u062A \u0639\u0634\u0627\u0646
+        \u0627\u0644\u0631\u0627\u062C\u0644 \u064A\u0644\u0628\u0633\u0647."
+      - Arraste a jaqueta para o homem colocar.
+      - Arrastra la chaqueta para que el hombre se la ponga.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level6Tips6
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the fan for the man to hold.
+      - "\u0625\u0633\u062D\u0628 \u0627\u0644\u0645\u0631\u0648\u062D\u0629 \u0639\u0634\u0627\u0646
+        \u0627\u0644\u0631\u0627\u062C\u0644 \u064A\u0645\u0633\u0643\u0647\u0627."
+      - Arraste o ventilador para o homem segurar.
+      - Arrastra el abanico para que el hombre lo sujete.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level6Tips7
+      TermType: 0
+      Description: 
+      Languages:
+      - ' Drag the pink shoes for the woman to wear.'
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0623\u062D\u0630\u064A\u0629 \u0627\u0644\u0648\u0631\u062F\u064A\u0629
+        \u0639\u0634\u0627\u0646 \u0627\u0644\u0633\u062A \u062A\u0644\u0628\u0633\u0647\u0627."
+      - "Arraste os sapatos rosa para a mulher cal\xE7ar."
+      - Arrastra los zapatos rosados para que la mujer se los ponga.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level6Tips8
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the screen to the right, fold the door, and drag the jacket onto the
+        woman.
+      - "\u0627\u0633\u062D\u0628 \u0627\u0644\u0634\u0627\u0634\u0629 \u0644\u0644\u064A\u0645\u064A\u0646\u060C
+        \u0627\u0637\u0648\u064A \u0627\u0644\u0628\u0627\u0628\u060C \u0648\u0627\u0633\u062D\u0628
+        \u0627\u0644\u062C\u0627\u0643\u062A \u0639\u0644\u0649 \u0627\u0644\u0633\u062A."
+      - Arraste a tela para a direita, doble a porta e arraste a jaqueta para a mulher.
+      - Arrastra la pantalla hacia la derecha, dobla la puerta y arrastra la chaqueta
+        sobre la mujer.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level6Tips9
+      TermType: 0
+      Description: 
+      Languages:
+      - After completing all the above steps, open the window and throw the man out.
+      - "\u0628\u0639\u062F \u0645\u0627 \u062A\u0643\u0645\u0644 \u0643\u0644 \u0627\u0644\u062E\u0637\u0648\u0627\u062A
+        \u0627\u0644\u0644\u064A \u0641\u0648\u0642 \u062F\u064A\u060C \u0627\u0641\u062A\u062D
+        \u0627\u0644\u0634\u0628\u0627\u0643 \u0648\u0627\u0631\u0645\u064A \u0627\u0644\u0631\u0627\u062C\u0644
+        \u0628\u0631\u0647."
+      - "Ap\xF3s completar todos os passos acima, abra a janela e jogue o homem para
+        fora."
+      - "Despu\xE9s de completar todos los pasos anteriores, abre la ventana y echa
+        al hombre afuera."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level7Tips0
+      TermType: 0
+      Description: 
+      Languages:
+      - Touch the sink faucet and knock out the cockroaches with your slippers
+      - "\u0627\u0644\u0645\u0633 \u0635\u0646\u0628\u0648\u0631 \u0627\u0644\u062D\u0648\u0636
+        \u0648\u0627\u0636\u0631\u0628 \u0627\u0644\u0635\u0631\u0627\u0635\u064A\u0631
+        \u0628\u0646\u0639\u0644\u064A\u0643"
+      - "Tocar na torneira do lava-loi\xE7a e derrubar as baratas com os seus chinelos"
+      - Toca el grifo del lavabo y noquea a las cucarachas con tus zapatillas
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level7Tips1
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the refrigerator and use slippers to knock out cockroaches
+      - "\u0627\u0641\u062A\u062D \u0627\u0644\u062B\u0644\u0627\u062C\u0629 \u0648\u0627\u0633\u062A\u062E\u062F\u0645
+        \u0627\u0644\u0646\u0639\u0627\u0644 \u0644\u0644\u0642\u0636\u0627\u0621
+        \u0639\u0644\u0649 \u0627\u0644\u0635\u0631\u0627\u0635\u064A\u0631"
+      - "Abrir o frigor\xEDfico e usar chinelos para eliminar as baratas"
+      - "Abre el frigor\xEDfico y usa zapatillas para ahuyentar a las cucarachas"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level7Tips2
+      TermType: 0
+      Description: 
+      Languages:
+      - Lift the tablecloth and use slippers to knock out cockroaches
+      - "\u0627\u0631\u0641\u0639\u064A \u0645\u0641\u0631\u0634 \u0627\u0644\u0645\u0627\u0626\u062F\u0629
+        \u0648\u0627\u0633\u062A\u062E\u062F\u0645\u064A \u0627\u0644\u0646\u0639\u0627\u0644
+        \u0644\u0637\u0631\u062F \u0627\u0644\u0635\u0631\u0627\u0635\u064A\u0631"
+      - Levantar a toalha de mesa e usar os chinelos para eliminar as baratas
+      - Levanta el mantel y usa zapatillas para ahuyentar a las cucarachas
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level7Tips3
+      TermType: 0
+      Description: 
+      Languages:
+      - Pick up the food on the plate and beat the cockroaches with your slippers
+      - "\u0627\u0644\u062A\u0642\u0637 \u0627\u0644\u0637\u0639\u0627\u0645 \u0645\u0646
+        \u0639\u0644\u0649 \u0627\u0644\u0637\u0628\u0642 \u0648\u0627\u0636\u0631\u0628
+        \u0627\u0644\u0635\u0631\u0627\u0635\u064A\u0631 \u0628\u0646\u0639\u0644\u064A\u0643"
+      - Apanhe a comida no prato e bata nas baratas com os seus chinelos
+      - Recoge la comida del plato y golpea a las cucarachas con tus zapatillas
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level7Tips4
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the cabinet under the sink and beat the cockroaches with your slippers
+      - "\u0627\u0641\u062A\u062D \u0627\u0644\u062E\u0632\u0627\u0646\u0629 \u0627\u0644\u0645\u0648\u062C\u0648\u062F\u0629
+        \u0623\u0633\u0641\u0644 \u0627\u0644\u062D\u0648\u0636 \u0648\u0627\u0636\u0631\u0628
+        \u0627\u0644\u0635\u0631\u0627\u0635\u064A\u0631 \u0628\u0646\u0639\u0644\u064A\u0643"
+      - "Abra o arm\xE1rio debaixo do lava-loi\xE7a e bata nas baratas com os seus
+        chinelos"
+      - Abre el armario bajo el fregadero y golpea a las cucarachas con tus zapatillas.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level7Tips5
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the window, then close it, and beat the cockroaches with your slippers
+      - "\u0627\u0641\u062A\u062D \u0627\u0644\u0646\u0627\u0641\u0630\u0629\u060C
+        \u062B\u0645 \u0623\u063A\u0644\u0642\u0647\u0627 \u0648\u0627\u0636\u0631\u0628
+        \u0627\u0644\u0635\u0631\u0627\u0635\u064A\u0631 \u0628\u0646\u0639\u0644\u064A\u0643"
+      - Abra a janela, depois feche-a e bata nas baratas com os seus chinelos
+      - "Abre la ventana, ci\xE9rrala y golpea a las cucarachas con tus zapatillas."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level7Tips6
+      TermType: 0
+      Description: 
+      Languages:
+      - Turn on the microwave and knock out the cockroaches with your slippers
+      - "\u0642\u0645 \u0628\u062A\u0634\u063A\u064A\u0644 \u0627\u0644\u0645\u064A\u0643\u0631\u0648\u0648\u064A\u0641
+        \u0648\u0627\u0636\u0631\u0628 \u0627\u0644\u0635\u0631\u0627\u0635\u064A\u0631
+        \u0628\u0646\u0639\u0644\u064A\u0643"
+      - Ligar o micro-ondas e eliminar as baratas com os seus chinelos
+      - Enciende el microondas y noquea a las cucarachas con tus zapatillas
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level7Tips7
+      TermType: 0
+      Description: 
+      Languages:
+      - Raise a glass of water and use your slippers to knock out the cockroaches
+      - "\u0627\u0631\u0641\u0639 \u0643\u0648\u0628\u0627\u064B \u0645\u0646 \u0627\u0644\u0645\u0627\u0621
+        \u0648\u0627\u0633\u062A\u062E\u062F\u0645 \u062E\u0641\u064A\u0643 \u0644\u0637\u0631\u062F
+        \u0627\u0644\u0635\u0631\u0627\u0635\u064A\u0631"
+      - "Levante um copo de \xE1gua e use os seus chinelos para derrubar as baratas"
+      - Levanta un vaso de agua y usa tus zapatillas para ahuyentar a las cucarachas.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level7Tips8
+      TermType: 0
+      Description: 
+      Languages:
+      - Sprinkle a basket of vegetables and beat the cockroaches with slippers
+      - "\u0627\u0646\u062B\u0631 \u0633\u0644\u0629 \u0645\u0646 \u0627\u0644\u062E\u0636\u0631\u0648\u0627\u062A
+        \u0648\u0627\u0636\u0631\u0628 \u0627\u0644\u0635\u0631\u0627\u0635\u064A\u0631
+        \u0628\u0627\u0644\u0646\u0639\u0627\u0644"
+      - Polvilhar um cesto de legumes e bater nas baratas com chinelos
+      - Espolvorea una cesta de verduras y golpea a las cucarachas con zapatillas
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level7Tips9
+      TermType: 0
+      Description: 
+      Languages:
+      - Lift the potted plant and use slippers to knock out the cockroaches
+      - "\u0627\u0631\u0641\u0639 \u0623\u0635\u064A\u0635 \u0627\u0644\u0646\u0628\u0627\u062A\u0627\u062A
+        \u0648\u0627\u0633\u062A\u062E\u062F\u0645 \u0627\u0644\u0646\u0639\u0627\u0644
+        \u0644\u0644\u062A\u062E\u0644\u0635 \u0645\u0646 \u0627\u0644\u0635\u0631\u0627\u0635\u064A\u0631"
+      - Levantar o vaso de plantas e usar os chinelos para eliminar as baratas
+      - Levanta la maceta y usa las zapatillas para eliminar las cucarachas.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level8Tips0
+      TermType: 0
+      Description: 
+      Languages:
+      - Prescription glasses
+      - "\u0646\u0638\u0627\u0631\u0627\u062A \u0637\u0628\u064A\u0629"
+      - Oculos de grau
+      - Lentes de prescribed
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level8Tips1
+      TermType: 0
+      Description: 
+      Languages:
+      - Footprint
+      - "\u0623\u062B\u0631 \u0642\u062F\u0645"
+      - Huella d'pie
+      - Huella dactilar
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level8Tips2
+      TermType: 0
+      Description: 
+      Languages:
+      - Blurred license plate
+      - "\u0644\u0648\u062D\u0629 \u062A\u0631\u062E\u064A\u0635 \u0645\u0634 \u0648\u0627\u0636\u062D\u0629"
+      - Placa de carro borrada
+      - Placa de licencia borrosa
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level8Tips3
+      TermType: 0
+      Description: 
+      Languages:
+      - Tied hands
+      - "\u0623\u064A\u062F \u0645\u0631\u0628\u0648\u0637\u0629"
+      - "M\xE3os amarradas"
+      - Manos atadas
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level8Tips4
+      TermType: 0
+      Description: 
+      Languages:
+      - Blood-stained knife
+      - "\u0633\u0643\u064A\u0646\u0629 \u0645\u0644\u0637\u062E\u0629 \u0628\u0627\u0644\u062F\u0645"
+      - Faca manchada de sangue
+      - Cuchillo manchado de sangre
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level8Tips5
+      TermType: 0
+      Description: 
+      Languages:
+      - Blood-stained cigarette pack
+      - "\u0639\u0644\u0628\u0629 \u0633\u062C\u0627\u064A\u0631 \u0645\u0644\u0648\u0646\u0629
+        \u0628\u0627\u0644\u062F\u0645."
+      - Pacote de cigarros manchado de sangue
+      - Paquete de cigarrillos manchado de sangre
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level8Tips6
+      TermType: 0
+      Description: 
+      Languages:
+      - Broken lipstick on the ground
+      - "\u0631\u0648\u062C \u0645\u0643\u0633\u0648\u0631 \u0639\u0644\u0649 \u0627\u0644\u0623\u0631\u0636"
+      - Batom quebrado no chao
+      - "L\xE1piz labial roto en el suelo"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level8Tips7
+      TermType: 0
+      Description: 
+      Languages:
+      - Photo
+      - "\u0635\u0648\u0631\u0629"
+      - Foto
+      - Foto
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level9Tips0
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the fridge and take the meat
+      - "\u0627\u0641\u062A\u062D \u0627\u0644\u062A\u0644\u0627\u062C\u0629 \u0648\u062E\u062F
+        \u0627\u0644\u0644\u062D\u0645\u0629"
+      - Abra a geladeira e pegue a carne
+      - Abre la nevera y toma la carne.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level9Tips1
+      TermType: 0
+      Description: 
+      Languages:
+      - Use a cup of water to water the plant in the room and take the tomato
+      - "\u0627\u0633\u062A\u062E\u062F\u0645 \u0643\u0648\u0628\u0627 \u0645\u0646
+        \u0627\u0644\u0645\u064A\u0629 \u0644\u0631\u064A \u0627\u0644\u0646\u0628\u0627\u062A
+        \u0641\u064A \u0627\u0644\u0623\u0648\u0636\u0629 \u0648\u062E\u062F \u0627\u0644\u0637\u0645\u0627\u0637\u0645."
+      - Use um copo de agua para regar a planta na sala e pegue o tomate
+      - "Usa una taza de agua para regar la planta de la habitaci\xF3n y toma el
+        tomate."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level9Tips2
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the cloth and wipe the mushroom
+      - "\u062E\u062F \u0627\u0644\u0642\u0645\u0627\u0634 \u0648\u0627\u0645\u0633\u062D
+        \u0628\u0627\u0644\u0641\u0637\u0631."
+      - Pegue o pano e limpe o cogumelo
+      - "Toma el pa\xF1o y limpia el hongo."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level9Tips3
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the mayonnaise bottle from the top of the fridge
+      - "\u062E\u062F \u0632\u062C\u0627\u062C\u0629 \u0627\u0644\u0645\u0627\u064A\u0648\u0646\u064A\u0632
+        \u0645\u0646 \u0641\u0648\u0642 \u0627\u0644\u062A\u0644\u0627\u062C\u0629."
+      - Pegue a garrafa de maionese do topo da geladeira
+      - Toma la botella de mayonesa de la cima de la nevera.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level9Tips4
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the onion from the sink
+      - "\u062E\u062F \u0627\u0644\u0628\u0635\u0644 \u0645\u0646 \u0627\u0644\u062D\u0648\u0636."
+      - Pegue a cebola do pia
+      - Toma la cebolla del lavabo.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level9Tips5
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the yellow curtain
+      - "\u0627\u062E\u062F \u0627\u0644\u0633\u062A\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621"
+      - Pegue a cortina amarela
+      - Toma la cortina amarilla.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level9Tips6
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the egg
+      - "\u0627\u062E\u062F \u0627\u0644\u0628\u064A\u0636\u0629"
+      - Pegue o ovo
+      - Toma el huevo.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level9Tips7
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the vegetables
+      - "\u062E\u062F \u0627\u0644\u062E\u0636\u0627\u0631"
+      - Pegue os vegetais
+      - Toma las verduras.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level9Tips8
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the pineapple from the painting
+      - "\u062E\u062F \u0627\u0644\u0623\u0646\u0627\u0646\u0627\u0633 \u0645\u0646
+        \u0627\u0644\u0644\u0648\u062D\u0629"
+      - Pegue a abacaxi do quadro
+      - "Toma la pi\xF1a del cuadro."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Level9Tips9
+      TermType: 0
+      Description: 
+      Languages:
+      - Take the bun from the hanging rack
+      - "\u0627\u062E\u062F \u0627\u0644\u0628\u0648\u0646 \u0645\u0646 \u0627\u0644\u0631\u0641
+        \u0627\u0644\u0645\u0639\u0644\u0642"
+      - "Pegue o p\xE3o da prateleira pendente"
+      - Toma el pan del perchero colgante.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTip1
+      TermType: 0
+      Description: 
+      Languages:
+      - Help the two elderly grandparents imporve their lives
+      - "\u0633\u0627\u0639\u062F \u0627\u0644\u062C\u062F\u064A\u064A\u0646 \u0627\u0644\u0645\u0633\u0646\u064A\u0646
+        \u0625\u0646\u0647\u0645 \u064A\u062D\u0633\u0646\u0648\u0627 \u062D\u064A\u0627\u062A\u0647\u0645."
+      - "Ajude os dois av\xF3s idosos a melhorar sua vida"
+      - Ayuda a los dos abuelos a mejorar su vida.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTip10
+      TermType: 0
+      Description: 
+      Languages:
+      - Clear out all the mosquitoes so the girl can sleep better
+      - "\u0627\u0642\u0636\u0648\u0627 \u0639\u0644\u0649 \u0643\u0644 \u0627\u0644\u0628\u0639\u0648\u0636
+        \u0639\u0634\u0627\u0646 \u0627\u0644\u0628\u0646\u062A \u062A\u0642\u062F\u0631
+        \u062A\u0646\u0627\u0645 \u0623\u0641\u0636\u0644"
+      - Elimine todos os mosquitos para que a garota possa dormir melhor
+      - Limpia todos los mosquitos para que la chica pueda dormir mejor.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTip11
+      TermType: 0
+      Description: 
+      Languages:
+      - Help the guy get enough toilet paper
+      - "\u0633\u0627\u0639\u062F \u0627\u0644\u0631\u0627\u062C\u0644 \u064A\u062D\u0635\u0644
+        \u0639\u0644\u0649 \u0648\u0631\u0642 \u062A\u0648\u0627\u0644\u064A\u062A
+        \u0643\u0641\u0627\u064A\u0629."
+      - "Ajude o cara a ter papel higi\xEAnico suficiente"
+      - "Ayuda al chico a obtener suficiente papel higi\xE9nico."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTip12
+      TermType: 0
+      Description: 
+      Languages:
+      - A shattered family! Help them find a brighter future.
+      - "\u0639\u0627\u0626\u0644\u0629 \u0645\u062D\u0637\u0645\u0629! \u0633\u0627\u0639\u062F\u0647\u0645
+        \u064A\u0644\u0627\u0642\u0648\u0627 \u0645\u0633\u062A\u0642\u0628\u0644
+        \u0623\u0641\u0636\u0644."
+      - "Uma fam\xEDlia quebrada! Ajude-os a encontrar um futuro mais brilhante."
+      - "\xA1Una familia destrozada! Ay\xFAdalos a encontrar un futuro m\xE1s brillante."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTip13
+      TermType: 0
+      Description: 
+      Languages:
+      - Help the girl prepare a clean toilet room to use
+      - "\u0633\u0627\u0639\u062F \u0627\u0644\u0628\u0646\u062A \u062A\u062C\u0647\u0632
+        \u062D\u0645\u0627\u0645 \u0646\u0636\u064A\u0641 \u0644\u0644\u0627\u0633\u062A\u062E\u062F\u0627\u0645"
+      - Ajude a garota a preparar um banheiro limpo para usar
+      - "Ayuda a la chica a preparar un cuarto de ba\xF1o limpio para usar."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTip2
+      TermType: 0
+      Description: 
+      Languages:
+      - Find all the evidence to convict her.
+      - "\u0625\u0644\u0627\u0642\u064A \u0643\u0644 \u0627\u0644\u0623\u062F\u0644\u0629
+        \u0639\u0634\u0627\u0646 \u062A\u062F\u064A\u0646\u0647\u0627."
+      - "Encontre todas as evid\xEAncias para conden\xE1-la."
+      - Encuentra toda la evidencia para condenarla.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTip3
+      TermType: 0
+      Description: 
+      Languages:
+      - Help her knead all the dough.
+      - "\u0633\u0627\u0639\u062F\u0647\u0627 \u062A\u0639\u062C\u0646 \u0643\u0644
+        \u0627\u0644\u0639\u062C\u064A\u0646\u0629."
+      - Ajude-a a amassar toda a massa.
+      - "Ay\xFAdale a amasar toda la masa."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTip4
+      TermType: 0
+      Description: 
+      Languages:
+      - Help the girl feel warm!
+      - "\u0633\u0627\u0639\u062F \u0627\u0644\u0628\u0646\u062A \u062A\u0634\u0639\u0631
+        \u0628\u0627\u0644\u062F\u0641\u0621!"
+      - "Fa\xE7a com que a garota se sinta quente!"
+      - "\xA1Haz que la chica se sienta c\xE1lida!"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTip5
+      TermType: 0
+      Description: 
+      Languages:
+      - Help the girl sleep better!
+      - "\u0633\u0627\u0639\u062F \u0627\u0644\u0628\u0646\u062A \u062A\u0634\u0648\u0641
+        \u0646\u0648\u0645 \u0623\u062D\u0633\u0646!"
+      - Ajude a garota a dormir melhor!
+      - "\xA1Ayuda a la chica a dormir mejor!"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTip6
+      TermType: 0
+      Description: 
+      Languages:
+      - Don't let her husband find out
+      - "\u0645\u0627 \u062A\u062E\u0644\u064A\u0634 \u062C\u0648\u0632\u0647\u0627
+        \u064A\u0639\u0631\u0641."
+      - "N\xE3o deixe o marido descobrir"
+      - No dejes que su marido se entere.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTip7
+      TermType: 0
+      Description: 
+      Languages:
+      - Help grandma eliminate all the cockroaches in the kitchen!
+      - "\u0633\u0627\u0639\u062F \u0627\u0644\u062C\u062F\u0629 \u0641\u064A \u0627\u0644\u062A\u062E\u0644\u0635
+        \u0645\u0646 \u0643\u0644 \u0627\u0644\u0635\u0631\u0627\u0635\u064A\u0631
+        \u0641\u064A \u0627\u0644\u0645\u0637\u0628\u062E!"
+      - "Ajude a vov\xF3 a eliminar todas as baratas na cozinha!"
+      - "\xA1Ayuda a la abuela a eliminar todas las cucarachas de la cocina!"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTip8
+      TermType: 0
+      Description: 
+      Languages:
+      - Find evidence to figure out what happened.
+      - "\u0625\u0644\u0627\u0642\u064A \u062F\u0644\u064A\u0644 \u0639\u0634\u0627\u0646
+        \u062A\u0639\u0631\u0641 \u0625\u064A\u0647 \u0627\u0644\u0644\u064A \u062D\u0635\u0644."
+      - "Encontre evid\xEAncias para descobrir o que aconteceu."
+      - "Encuentra evidencia para averiguar lo que sucedi\xF3."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTip9
+      TermType: 0
+      Description: 
+      Languages:
+      - She is starving! Help her make a giant hamburger to eat!
+      - "\u0647\u064A \u062C\u0648\u0639\u0627\u0646\u0629! \u0633\u0627\u0639\u062F\u0647\u0627
+        \u062A\u0639\u0645\u0651\u0644 \u0647\u0645\u0628\u0631\u062C\u0631 \u0636\u062E\u0645
+        \u0639\u0634\u0627\u0646 \u062A\u0623\u0643\u0644\u0647!"
+      - "Ela est\xE1 morrendo de fome! Ajude-a a fazer uma hamb\xFArguer gigante
+        para comer!"
+      - "\xA1Ella est\xE1 hambrienta! \xA1Ay\xFAdala a hacer una hamburguesa gigante
+        para comer!"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTitle1
+      TermType: 0
+      Description: 
+      Languages:
+      - Improve their life
+      - "\u062D\u0633\u0646\u0648\u0627 \u062D\u064A\u0627\u062A\u0647\u0645"
+      - Melhore sua vida
+      - Mejorar su vida
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTitle10
+      TermType: 0
+      Description: 
+      Languages:
+      - Help the girl fall asleep
+      - "\u0633\u0627\u0639\u062F \u0627\u0644\u0628\u0646\u062A \u062A\u0634\u0648\u0641
+        \u0627\u0644\u0646\u0648\u0645"
+      - Ajude a garota a adormecer
+      - Ayudar a la chica a dormir
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTitle11
+      TermType: 0
+      Description: 
+      Languages:
+      - Help the guy get enough toilet paper
+      - "\u0633\u0627\u0639\u062F \u0627\u0644\u0631\u0627\u062C\u0644 \u064A\u062D\u0635\u0644
+        \u0639\u0644\u0649 \u0643\u0645\u064A\u0629 \u0643\u0627\u0641\u064A\u0629
+        \u0645\u0646 \u0648\u0631\u0642 \u0627\u0644\u062D\u0645\u0627\u0645."
+      - "Ajude o cara a ter papel higi\xEAnico suficiente"
+      - "Ayudar al chico a obtener suficiente papel higi\xE9nico"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTitle12
+      TermType: 0
+      Description: 
+      Languages:
+      - Help the mom and baby improve their life
+      - "\u0633\u0627\u0639\u062F \u0627\u0644\u0623\u0645 \u0648\u0627\u0644\u0637\u0641\u0644
+        \u064A\u062D\u0633\u0646\u0648\u0627 \u062D\u064A\u0627\u062A\u0647\u0645."
+      - "Ajude a m\xE3e e o beb\xEA a melhorar sua vida"
+      - "Ayudar a la mam\xE1 y el beb\xE9 a mejorar su vida"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTitle13
+      TermType: 0
+      Description: 
+      Languages:
+      - Help the girl to the bathroom
+      - "\u0633\u0627\u0639\u062F \u0627\u0644\u0628\u0646\u062A \u062A\u0631\u0648\u062D
+        \u0627\u0644\u062D\u0645\u0627\u0645"
+      - Ajude a garota a ir ao banheiro
+      - "Ayudar a la chica al ba\xF1o"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTitle2
+      TermType: 0
+      Description: 
+      Languages:
+      - Find the murder evidence
+      - "\u0627\u0628\u062D\u062B \u0639\u0646 \u062F\u0644\u064A\u0644 \u0627\u0644\u062C\u0631\u064A\u0645\u0629"
+      - "Encontre as evid\xEAncias do assassinato"
+      - Encontrar evidencia de asesinato
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTitle3
+      TermType: 0
+      Description: 
+      Languages:
+      - Empower the girl
+      - "\u0645\u0643\u0646 \u0627\u0644\u0641\u062A\u0627\u0629"
+      - Empodere a garota
+      - Empoderar a la chica
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTitle4
+      TermType: 0
+      Description: 
+      Languages:
+      - Find all the blankets
+      - "\u062F\u0648\u0631 \u0639\u0644\u0649 \u0643\u0644 \u0627\u0644\u0628\u0637\u0627\u0637\u064A\u0646"
+      - Encontre todas as coberturas
+      - Encontrar todas las mantas
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTitle5
+      TermType: 0
+      Description: 
+      Languages:
+      - Help the girl sleep better!
+      - "\u0633\u0627\u0639\u062F \u0627\u0644\u0628\u0646\u062A \u062A\u0634\u0648\u0641
+        \u0646\u0648\u0645 \u0623\u062D\u0633\u0646!"
+      - Ajude a garota a dormir melhor!
+      - "\xA1Ayudar a la chica a dormir mejor!"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTitle6
+      TermType: 0
+      Description: 
+      Languages:
+      - Clean the room before the husband comes back
+      - "\u0646\u0638\u0641\u064A \u0627\u0644\u0623\u0648\u0636\u0629 \u0642\u0628\u0644
+        \u0645\u0627 \u0627\u0644\u0632\u0648\u062C \u064A\u0631\u062C\u0639."
+      - Limpe a sala antes que o marido volte
+      - "Limpiar la habitaci\xF3n antes de que regrese el marido"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTitle7
+      TermType: 0
+      Description: 
+      Languages:
+      - Get rid of all the cockroaches in the kitchen
+      - "\u062A\u062E\u0644\u0635 \u0645\u0646 \u062C\u0645\u064A\u0639 \u0627\u0644\u0635\u0631\u0627\u0635\u064A\u0631
+        \u0641\u064A \u0627\u0644\u0645\u0637\u0628\u062E"
+      - Livrar-se de todas as baratas da cozinha
+      - Deshazte de todas las cucarachas de la cocina
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTitle8
+      TermType: 0
+      Description: 
+      Languages:
+      - Find all pieces of evidence
+      - "\u0625\u064A\u062C\u0627\u062F \u0643\u0644 \u0642\u0637\u0639 \u0627\u0644\u0623\u062F\u0644\u0629"
+      - "Encontre todas as pe\xE7as de evid\xEAncia"
+      - Encontrar todas las piezas de evidencia
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelTitle9
+      TermType: 0
+      Description: 
+      Languages:
+      - Gather all the ingredients for the hamburger
+      - "\u0627\u062C\u0645\u0639 \u0643\u0644 \u0627\u0644\u0645\u0643\u0648\u0646\u0627\u062A
+        \u0647\u0645\u0628\u0631\u062C\u0631."
+      - "Re\xFAna todos os ingredientes para a hamb\xFArguer"
+      - Recopilar todos los ingredientes para la hamburguesa
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LikeGame
+      TermType: 0
+      Description: 
+      Languages:
+      - Do you like this game?
+      - "\u0628\u062A\u062D\u0628 \u0627\u0644\u0644\u0639\u0628\u0629 \u062F\u064A\u061F"
+      - "Voc\xEA gosta desse jogo?"
+      - "\xBFTe gusta este juego?"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Loading
+      TermType: 0
+      Description: 
+      Languages:
+      - Loading
+      - "\u0628\u064A\u062A\u0645 \u062A\u062D\u0645\u064A\u0644"
+      - Carregando
+      - Cargando
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LookADSuccess
+      TermType: 0
+      Description: 
+      Languages:
+      - Watch AD Success
+      - "\u0634\u0627\u0647\u062F \u0646\u062C\u0627\u062D \u0627\u0644\u0625\u0639\u0644\u0627\u0646\u0627\u062A"
+      - "Assistir an\xFAncio com sucesso"
+      - "\xC9xito al ver el anuncio"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: NEXT
+      TermType: 0
+      Description: 
+      Languages:
+      - NEXT
+      - "\u0627\u0644\u062C\u0627\u064A"
+      - "PR\xD3XIMO"
+      - SIGUIENTE
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: NOAD
+      TermType: 0
+      Description: 
+      Languages:
+      - NO ADS
+      - "\u0645\u0641\u064A\u0634 \u0625\u0639\u0644\u0627\u0646\u0627\u062A"
+      - "SEM AN\xDANCIOS"
+      - SIN ANUNCIOS
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: NOADTips
+      TermType: 0
+      Description: 
+      Languages:
+      - 'We''re so close to getting the spell of creating money just right.
+
+
+        Until
+        then we''ll show some ads to play for development.
+
+
+        Of you can buy
+        us a drink and we''ll hide the asd.'
+      - "\u0627\u062D\u0646\u0627 \u0642\u0631\u064A\u0628\u064A\u0646 \u062C\u062F\u0627
+        \u0645\u0646 \u0625\u0646\u0646\u0627 \u0646\u0636\u0628\u0637 \u0633\u062D\u0631
+        \u062E\u0644\u0642 \u0627\u0644\u0641\u0644\u0648\u0633. \u0644\u062D\u062F
+        \u0645\u0627 \u0646\u0648\u0635\u0644 \u0644\u0644\u0647\u062F\u0641 \u062F\u0647\u060C
+        \u0647\u0646\u0639\u0631\u0636 \u0634\u0648\u064A\u0629 \u0625\u0639\u0644\u0627\u0646\u0627\u062A
+        \u0639\u0634\u0627\u0646 \u0646\u062F\u0641\u0639 \u062A\u0643\u0627\u0644\u064A\u0641
+        \u0627\u0644\u062A\u0637\u0648\u064A\u0631. \u0623\u0648 \u0645\u0645\u0643\u0646
+        \u062A\u0634\u062A\u0631\u064A \u0644\u0646\u0627 \u0645\u0634\u0631\u0648\u0628
+        \u0648\u062D\u0646\u062E\u0641\u064A \u0627\u0644\u0625\u0639\u0644\u0627\u0646."
+      - "A Estamos quase conseguindo a magia certa para criar dinheiro.\n\nAt\xE9
+        l\xE1, mostraremos alguns an\xFAncios para financiar o desenvolvimento.\n\nOu
+        voc\xEA pode nous comprar uma bebida e escondermos os an\xFAncios."
+      - 'Estamos muy cerca de perfectar el hechizo para crear dinero.
+
+
+        Mientras
+        tanto, mostraremos algunos anuncios para financiar el desarrollo.
+
+
+        O
+        puedes regalarnos una bebida y escondremos los anuncios.'
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: NoThanks
+      TermType: 0
+      Description: 
+      Languages:
+      - No,Thanks!
+      - "\u0644\u0627\u060C \u0634\u0643\u0631\u064B\u0627!"
+      - "N\xE3o, obrigado!"
+      - No, gracias.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: NotNow
+      TermType: 0
+      Description: 
+      Languages:
+      - Not Now
+      - "\u0645\u0634 \u062F\u0644\u0648\u0642\u062A\u064A"
+      - "N\xE3o agora"
+      - No ahora
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Privacy Policy
+      TermType: 0
+      Description: 
+      Languages:
+      - Privacy Policy
+      - "\u0633\u064A\u0627\u0633\u0629 \u0627\u0644\u062E\u0635\u0648\u0635\u064A\u0629"
+      - "Pol\xEDtica de Privacidade"
+      - "Pol\xEDtica de privacidad"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: REVIVE
+      TermType: 0
+      Description: 
+      Languages:
+      - REVIVE
+      - "\u0625\u062D\u064A\u0627\u0621"
+      - REVIVER
+      - REANUDAR
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: ReasonLosing
+      TermType: 0
+      Description: 
+      Languages:
+      - 'REASON FOR LOSING:'
+      - "\u0633\u0628\u0628 \u0627\u0644\u062E\u0633\u0627\u0631\u0629:"
+      - 'MOTIVO DE PERDA:'
+      - "RAZ\xD3N DE LA DERROTA:"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Restart
+      TermType: 0
+      Description: 
+      Languages:
+      - Restart
+      - "\u0625\u0639\u0627\u062F\u0629 \u062A\u0634\u063A\u064A\u0644"
+      - Reiniciar
+      - Reiniciar
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Return
+      TermType: 0
+      Description: 
+      Languages:
+      - Return
+      - "\u0627\u0631\u062C\u0639"
+      - Retornar
+      - Volver
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Reward
+      TermType: 0
+      Description: 
+      Languages:
+      - Reward
+      - "\u0645\u0643\u0627\u0641\u0623\u0629"
+      - Recompensa
+      - Recompensa
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Setting
+      TermType: 0
+      Description: 
+      Languages:
+      - Setting
+      - "\u0627\u0644\u0625\u0639\u062F\u0627\u062F"
+      - "Configura\xE7\xF5es"
+      - "Configuraci\xF3n"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: SkipLevel
+      TermType: 0
+      Description: 
+      Languages:
+      - Skip level
+      - "\u062A\u062E\u0637\u0649 \u0627\u0644\u0645\u0633\u062A\u0648\u0649"
+      - "Pular n\xEDvel"
+      - Saltar nivel
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: SkipThisLevel
+      TermType: 0
+      Description: 
+      Languages:
+      - Skip this level
+      - "\u062A\u062E\u0637\u0649 \u0647\u0630\u0627 \u0627\u0644\u0645\u0633\u062A\u0648\u0649."
+      - "Pular este n\xEDvel"
+      - Saltar este nivel
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: TimeOut
+      TermType: 0
+      Description: 
+      Languages:
+      - Time out
+      - "\u0648\u0642\u062A \u0645\u0633\u062A\u0642\u0637\u0639"
+      - Tempo esgotado
+      - Tiempo agotado
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: TimeUp
+      TermType: 0
+      Description: 
+      Languages:
+      - TIME UP!
+      - "\u0627\u0644\u0648\u0642\u062A \u0627\u0646\u062A\u0647\u0649!"
+      - TEMPO ACABOU!
+      - TIEMPO TERMINADO!
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Unlock
+      TermType: 0
+      Description: 
+      Languages:
+      - Unlock
+      - "\u0627\u0641\u062A\u062D"
+      - Desbloquear
+      - Desbloquear
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Unlock Level
+      TermType: 0
+      Description: 
+      Languages:
+      - Unlock Level
+      - "\u0641\u062A\u062D \u0627\u0644\u0645\u0633\u062A\u0648\u0649"
+      - "Desbloquear N\xEDvel"
+      - Desbloquear nivel
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: UnlockLevelBy
+      TermType: 0
+      Description: 
+      Languages:
+      - Unlock this level by
+      - "\u0627\u0641\u062A\u062D \u0627\u0644\u0645\u0633\u062A\u0648\u0649 \u062F\u0647
+        \u0639\u0646 \u0637\u0631\u064A\u0642"
+      - "Desbloquear este n\xEDvel atrav\xE9s de"
+      - 'Desbloquee este nivel mediante:'
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: ViewHint
+      TermType: 0
+      Description: 
+      Languages:
+      - "View a hint or view \nall answers"
+      - "\u0634\u0648\u0641 \u062A\u0644\u0645\u064A\u062D\u0629 \u0623\u0648 \u0634\u0648\u0641
+        \u0643\u0644 \u0627\u0644\u0625\u062C\u0627\u0628\u0627\u062A"
+      - Ver dica ou ver todas as respostas
+      - Ver una pista o ver todas las respuestas
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: WantRestart
+      TermType: 0
+      Description: 
+      Languages:
+      - Do you want to restart this level?
+      - "\u0639\u0627\u064A\u0632 \u062A\u0639\u064A\u062F \u0627\u0644\u0645\u0633\u062A\u0648\u0649
+        \u062F\u0647\u061F"
+      - "Deseja reiniciar este n\xEDvel?"
+      - "\xBFDesea reiniciar este nivel?"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Arabic
+      TermType: 0
+      Description: 
+      Languages:
+      - Arabic
+      - "\u0639\u0631\u0628\u064A"
+      - "\xC1rabe"
+      - "\xC1rabe"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Portuguese
+      TermType: 0
+      Description: 
+      Languages:
+      - Portuguese
+      - "\u0628\u0631\u062A\u063A\u0627\u0644\u064A"
+      - "Portugu\xEAs"
+      - "Portugu\xE9s"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Spanish
+      TermType: 0
+      Description: 
+      Languages:
+      - Spanish
+      - "\u0625\u0633\u0628\u0627\u0646\u064A"
+      - "Portugu\xEAs "
+      - "Espa\xF1ol"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelWin1
+      TermType: 0
+      Description: 
+      Languages:
+      - Their lives will be better from now on!
+      - "\u0633\u062A\u0643\u0648\u0646 \u062D\u064A\u0627\u062A\u0647\u0645 \u0623\u0641\u0636\u0644
+        \u0645\u0646 \u0627\u0644\u0622\u0646 \u0641\u0635\u0627\u0639\u062F\u064B\u0627!"
+      - "A partir de agora, suas vidas ser\xE3o melhores!"
+      - "\xA1Sus vidas ser\xE1n mejores a partir de ahora!"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelWin2
+      TermType: 0
+      Description: 
+      Languages:
+      - Enough evidence has been gathered!
+      - "\u0644\u0642\u062F \u062A\u0645 \u062C\u0645\u0639 \u0645\u0627 \u064A\u0643\u0641\u064A
+        \u0645\u0646 \u0627\u0644\u0623\u062F\u0644\u0629!"
+      - "Suficiente evid\xEAncia foi coletada!"
+      - Se han reunido suficientes pruebas.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelWin3
+      TermType: 0
+      Description: 
+      Languages:
+      - All the dough has been shaped into cakes!
+      - "\u062A\u0645 \u062A\u0634\u0643\u064A\u0644 \u0643\u0644 \u0627\u0644\u0639\u062C\u064A\u0646
+        \u0639\u0644\u0649 \u0634\u0643\u0644 \u0643\u0639\u0643!"
+      - Toda a massa de trigo foi moldada em bolos!
+      - Toda la masa se ha convertido en pasteles.
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelWin4
+      TermType: 0
+      Description: 
+      Languages:
+      - The girl is feeling warmer now
+      - "\u0627\u0644\u0641\u062A\u0627\u0629 \u062A\u0634\u0639\u0631 \u0628\u0627\u0644\u062F\u0641\u0621
+        \u0627\u0644\u0622\u0646"
+      - "A garota est\xE1 se sentindo mais quente agora."
+      - "La ni\xF1a se siente m\xE1s caliente ahora"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelWin5
+      TermType: 0
+      Description: 
+      Languages:
+      - The girl was able to sleep well
+      - "\u0643\u0627\u0646\u062A \u0627\u0644\u0641\u062A\u0627\u0629 \u0642\u0627\u062F\u0631\u0629
+        \u0639\u0644\u0649 \u0627\u0644\u0646\u0648\u0645 \u0628\u0634\u0643\u0644
+        \u062C\u064A\u062F"
+      - A garota conseguiu dormir bem.
+      - "La ni\xF1a pudo dormir bien."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelWin6
+      TermType: 0
+      Description: 
+      Languages:
+      - This husband is so naive!
+      - "\u0647\u0630\u0627 \u0627\u0644\u0632\u0648\u062C \u0633\u0627\u0630\u062C
+        \u0644\u0644\u063A\u0627\u064A\u0629!"
+      - "Este marido \xE9 t\xE3o ing\xEAnuo!"
+      - "\xA1Este marido es tan ingenuo!"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelWin7
+      TermType: 0
+      Description: 
+      Languages:
+      - The kitchen is cleaner now!
+      - "\u0627\u0644\u0645\u0637\u0628\u062E \u0623\u0646\u0638\u0641 \u0627\u0644\u0622\u0646!"
+      - "A cozinha est\xE1 mais limpa agora!"
+      - "\xA1La cocina est\xE1 m\xE1s limpia ahora!"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelWin8
+      TermType: 0
+      Description: 
+      Languages:
+      - This man will face the consequences of his actions!
+      - "\u0633\u064A\u0648\u0627\u062C\u0647 \u0647\u0630\u0627 \u0627\u0644\u0631\u062C\u0644
+        \u0639\u0648\u0627\u0642\u0628 \u0623\u0641\u0639\u0627\u0644\u0647!"
+      - "Este homem enfrentar\xE1 as consequ\xEAncias de suas a\xE7\xF5es!"
+      - "Este hombre se enfrentar\xE1 a las consecuencias de sus actos."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelWin9
+      TermType: 0
+      Description: 
+      Languages:
+      - This hamburger could set a Guinness World Record!
+      - "\u064A\u0645\u0643\u0646 \u0644\u0647\u0630\u0627 \u0627\u0644\u0647\u0627\u0645\u0628\u0631\u063A\u0631
+        \u0623\u0646 \u064A\u0633\u062C\u0644 \u0631\u0642\u0645\u0627\u064B \u0642\u064A\u0627\u0633\u064A\u0627\u064B
+        \u0641\u064A \u0645\u0648\u0633\u0648\u0639\u0629 \u063A\u064A\u0646\u064A\u0633
+        \u0644\u0644\u0623\u0631\u0642\u0627\u0645 \u0627\u0644\u0642\u064A\u0627\u0633\u064A\u0629!"
+      - "Este hamb\xFArguer poderia establecer um recorde no Guinness World Records!"
+      - "\xA1Esta hamburguesa podr\xEDa batir un r\xE9cord Guinness!"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelWin10
+      TermType: 0
+      Description: 
+      Languages:
+      - She can finally sleep well
+      - "\u064A\u0645\u0643\u0646\u0647\u0627 \u0623\u062E\u064A\u0631\u0627\u064B
+        \u0623\u0646 \u062A\u0646\u0627\u0645 \u062C\u064A\u062F\u0627\u064B"
+      - Ela finalmente pode dormir bem.
+      - "Por fin puede dormir bien.\t"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelWin11
+      TermType: 0
+      Description: 
+      Languages:
+      - You've saved his life!
+      - "\u0644\u0642\u062F \u0623\u0646\u0642\u0630\u062A \u062D\u064A\u0627\u062A\u0647!"
+      - "Voc\xEA salvou sua vida!"
+      - "\xA1Le has salvado la vida!\t"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelWin12
+      TermType: 0
+      Description: 
+      Languages:
+      - Their life will be better from now on
+      - "\u0633\u062A\u0643\u0648\u0646 \u062D\u064A\u0627\u062A\u0647\u0645 \u0623\u0641\u0636\u0644
+        \u0645\u0646 \u0627\u0644\u0622\u0646 \u0641\u0635\u0627\u0639\u062F\u064B\u0627"
+      - "A partir de agora, sua vida ser\xE1 melhor."
+      - "Su vida ser\xE1 mejor a partir de ahora."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: LevelWin13
+      TermType: 0
+      Description: 
+      Languages:
+      - You've saved her life!
+      - "\u0644\u0642\u062F \u0623\u0646\u0642\u0630\u062A \u062D\u064A\u0627\u062A\u0647\u0627!"
+      - "Voc\xEA salvou sua vida!"
+      - "\xA1Le has salvado la vida"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: NetCheck
+      TermType: 0
+      Description: 
+      Languages:
+      - Network unavailable.Please check your network connection.
+      - "\u0627\u0644\u0634\u0628\u0643\u0629 \u063A\u064A\u0631 \u0645\u062A\u0648\u0641\u0631\u0629\u060C
+        \u0627\u0644\u0631\u062C\u0627\u0621 \u0627\u0644\u062A\u062D\u0642\u0642
+        \u0645\u0646 \u0627\u062A\u0635\u0627\u0644 \u0627\u0644\u0634\u0628\u0643\u0629."
+      - "Rede indispon\xEDvel. Verifique sua conex\xE3o \xE0 rede."
+      - "Red no disponible. Por favor, compruebe su conexi\xF3n de red."
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Language
+      TermType: 0
+      Description: 
+      Languages:
+      - Language
+      - "\u0644\u063A\u0629"
+      - Linguagem
+      - Lenguaje
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: ThanksFeedBack
+      TermType: 0
+      Description: 
+      Languages:
+      - Thanks for your feedback
+      - "\u0634\u0643\u0631\u0627\u064B \u0639\u0644\u0649 \u0645\u0644\u0627\u062D\u0638\u0627\u062A\u0643"
+      - Obrigado pelo vosso feedback
+      - Gracias por sus comentarios
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: PutHandsBack
+      TermType: 0
+      Description: 
+      Languages:
+      - Put your hands behind your back! Now there's no way for you, butcher!
+      - "!\u0636\u0639 \u064A\u062F\u064A\u0643 \u062E\u0644\u0641 \u0638\u0647\u0631\u0643
+        \u0627\u0644\u0622\u0646 \u0644\u0627 \u062A\u0648\u062C\u062F \u0637\u0631\u064A\u0642\u0629
+        \u0644\u0643 \u0623\u064A\u0647\u0627 \u0627\u0644\u062C\u0632\u0627\u0631!"
+      - "P\xF5e as m\xE3os atr\xE1s das costas! Agora n\xE3o h\xE1 maneira de o fazer,
+        carniceiro!"
+      - "\xA1Las manos a la espalda! \xA1Ahora no hay manera para ti, carnicero!"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Yeah
+      TermType: 0
+      Description: 
+      Languages:
+      - Oh Yeah !
+      - "\u0623\u0648\u0647 \u0646\u0639\u0645!"
+      - Oh, sim!
+      - "\xA1Oh, s\xED!"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Power
+      TermType: 0
+      Description: 
+      Languages:
+      - Feeling empowered!
+      - "\u0627\u0644\u0634\u0639\u0648\u0631 \u0628\u0627\u0644\u062A\u0645\u0643\u064A\u0646!"
+      - Sentir-se capacitado!
+      - Sentirse capacitado
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: WaterCool
+      TermType: 0
+      Description: 
+      Languages:
+      - The water is so cool!
+      - "\u0627\u0644\u0645\u0627\u0621 \u0631\u0627\u0626\u0639 \u062C\u062F\u0627\u064B!"
+      - "A \xE1gua \xE9 t\xE3o fixe!"
+      - "\xA1El agua est\xE1 tan fresca!"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Energy
+      TermType: 0
+      Description: 
+      Languages:
+      - The energy is so full!
+      - "\u0627\u0644\u0637\u0627\u0642\u0629 \u0645\u0645\u062A\u0644\u0626\u0629
+        \u0644\u0644\u063A\u0627\u064A\u0629!"
+      - "A energia \xE9 t\xE3o cheia!"
+      - "\xA1La energ\xEDa es tan plena!"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Cool
+      TermType: 0
+      Description: 
+      Languages:
+      - So cool!
+      - "\u0631\u0627\u0626\u0639 \u062C\u062F\u0627\u064B!"
+      - Que fixe!
+      - "\xA1Qu\xE9 guay!"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: GoingOn
+      TermType: 0
+      Description: 
+      Languages:
+      - What's going on?
+      - "\u0645\u0627 \u0627\u0644\u0630\u064A \u064A\u062D\u062F\u062B\u061F"
+      - "O que \xE9 que se passa?"
+      - "\xBFQu\xE9 es lo que pasa?"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Scared
+      TermType: 0
+      Description: 
+      Languages:
+      - I'm so scared
+      - "\u0623\u0646\u0627 \u062E\u0627\u0626\u0641 \u062C\u062F\u0627\u064B"
+      - Tenho tanto medo
+      - Estoy tan asustada
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Help
+      TermType: 0
+      Description: 
+      Languages:
+      - Please help me
+      - "\u0623\u0631\u062C\u0648\u0643 \u0633\u0627\u0639\u062F\u0646\u064A"
+      - Por favor, ajudem-me
+      - "Por favor, ay\xFAdenme"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: NeatHouse
+      TermType: 0
+      Description: 
+      Languages:
+      - "oh baby! \nHow neat is the house"
+      - "\u064A\u0627 \u0639\u0632\u064A\u0632\u064A! \n\u0645\u0627 \u0645\u062F\u0649
+        \u0623\u0646\u0627\u0642\u0629 \u0627\u0644\u0645\u0646\u0632\u0644"
+      - "oh beb\xE9! \nComo a casa est\xE1 arrumada"
+      - "\xA1Oh, cari\xF1o! \nQu\xE9 limpia est\xE1 la casa"
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: New Text
+      TermType: 0
+      Description: 
+      Languages:
+      - s
+      - ss
+      - ss
+      - aaa
+      Flags: 00000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Arabic
+      Code: ar
+      Flags: 0
+    - Name: Portuguese
+      Code: pt
+      Flags: 0
+    - Name: Spanish
+      Code: es
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: 
+    Google_SpreadsheetKey: 
+    Google_SpreadsheetName: 
+    Google_LastUpdatedVersion: 
+    Google_Password: change_this
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: I2/Language - Sheet.csv
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1

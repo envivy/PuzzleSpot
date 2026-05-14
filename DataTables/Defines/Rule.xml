@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module name="rule">
+  <enum name="LevelRuleOpType">
+    <var name="Click" value="1"/>
+    <var name="DragToTarget" value="2"/>
+    <var name="Swipe" value="3"/>
+    <var name="DragEnd" value="4"/>
+  </enum>
+
+  <enum name="LevelRuleDirection">
+    <var name="Any" value="0"/>
+    <var name="Left" value="1"/>
+    <var name="Right" value="2"/>
+    <var name="Up" value="3"/>
+    <var name="Down" value="4"/>
+  </enum>
+
+  <enum name="LevelRuleEffectType">
+    <var name="None" value="0"/>
+    <var name="Show" value="1"/>
+    <var name="Hide" value="2"/>
+    <var name="SwapElement" value="3"/>
+    <var name="EnableElement" value="4"/>
+    <var name="DisableElement" value="5"/>
+    <var name="MoveElement" value="6"/>
+    <var name="PlayAnimation" value="7"/>
+    <var name="SetState" value="8"/>
+    <var name="PlayAudio" value="9"/>
+  </enum>
+
+  <bean name="LevelRuleHint">
+    <var name="id" type="string"/>
+    <var name="level_id" type="int"/>
+    <var name="score" type="int"/>
+    <var name="tip_key" type="string"/>
+    <var name="answer_key" type="string"/>
+  </bean>
+
+  <bean name="LevelRuleStep">
+    <var name="id" type="string"/>
+    <var name="level_id" type="int"/>
+    <var name="hint_id" type="string"/>
+    <var name="order_index" type="int"/>
+    <var name="actor_id" type="string"/>
+    <var name="target_id" type="string"/>
+    <var name="require_step" type="string"/>
+    <var name="block_step" type="string"/>
+    <var name="failLevel" type="bool"/>
+    <var name="effect" type="list,string"/>
+    <var name="successHide" type="bool"/>
+  </bean>
+
+  <bean name="LevelRuleEffect">
+    <var name="id" type="string"/>
+    <var name="level_id" type="int"/>
+    <var name="effect_type" type="LevelRuleEffectType"/>
+    <var name="bool_param" type="bool"/>
+    <var name="int_param" type="int"/>
+    <var name="float_param" type="(list#sep=|),float"/>
+    <var name="string_param" type="string"/>
+    <var name="vector_param" type="string"/>
+  </bean>
+
+  <table name="TbLevelRuleStep" value="LevelRuleStep" input="levelStep.xlsx"/>
+  <table name="TbLevelRuleEffect" value="LevelRuleEffect" input="levelEffect.xlsx"/>
+</module>

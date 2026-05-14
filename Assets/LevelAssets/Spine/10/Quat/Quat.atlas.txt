@@ -1,0 +1,11 @@
+Quat.png
+size:592,468
+filter:Linear,Linear
+pma:true
+Canh
+bounds:2,2,461,461
+Ellipse 1
+bounds:465,206,114,39
+quat
+bounds:465,247,123,216
+offsets:0,0,124,216

@@ -1,0 +1,93 @@
+{
+"skeleton": {
+	"hash": "8yc8kuxyIF8",
+	"spine": "4.0.64",
+	"x": -72.79,
+	"y": -8.51,
+	"width": 121,
+	"height": 98,
+	"images": "./images/",
+	"audio": "E:/Drama/Lv38/Bird/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "ALL", "parent": "root" }
+],
+"slots": [
+	{ "name": "Wing_L1", "bone": "ALL", "attachment": "Wing_L1" },
+	{ "name": "Body", "bone": "ALL", "attachment": "Body" },
+	{ "name": "Wing_R1", "bone": "ALL", "attachment": "Wing_R1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Body": {
+				"Body": { "x": -12.29, "y": 20.99, "width": 121, "height": 59 }
+			},
+			"Wing_L1": {
+				"Wing_L1": { "x": -7.79, "y": 52.49, "width": 42, "height": 74 },
+				"Wing_L2": { "x": -7.79, "y": -8.01, "width": 42, "height": 63 }
+			},
+			"Wing_R1": {
+				"Wing_R1": { "x": -20.79, "y": 47.49, "width": 50, "height": 70 },
+				"Wing_R2": { "x": -32.6, "y": 11.09, "width": 74, "height": 28 },
+				"Wing_R3": { "x": -20.79, "y": -7.6, "width": 50, "height": 70 }
+			}
+		}
+	}
+],
+"animations": {
+	"Idle": {
+		"slots": {
+			"Wing_L1": {
+				"attachment": [
+					{ "time": 0.0667, "name": null },
+					{ "time": 0.1333, "name": "Wing_L2" },
+					{ "time": 0.2, "name": null },
+					{ "time": 0.2667, "name": "Wing_L1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.4, "name": "Wing_L2" },
+					{ "time": 0.4667, "name": null },
+					{ "time": 0.5333, "name": "Wing_L1" },
+					{ "time": 0.6, "name": null },
+					{ "time": 0.6667, "name": "Wing_L2" },
+					{ "time": 0.7333, "name": null },
+					{ "time": 0.8, "name": "Wing_L1" }
+				]
+			},
+			"Wing_R1": {
+				"attachment": [
+					{ "time": 0.0667, "name": "Wing_R2" },
+					{ "time": 0.1333, "name": "Wing_R3" },
+					{ "time": 0.2, "name": "Wing_R2" },
+					{ "time": 0.2667, "name": "Wing_R1" },
+					{ "time": 0.3333, "name": "Wing_R2" },
+					{ "time": 0.4, "name": "Wing_R3" },
+					{ "time": 0.4667, "name": "Wing_R2" },
+					{ "time": 0.5333, "name": "Wing_R1" },
+					{ "time": 0.6, "name": "Wing_R2" },
+					{ "time": 0.6667, "name": "Wing_R3" },
+					{ "time": 0.7333, "name": "Wing_R2" },
+					{ "time": 0.8, "name": "Wing_R1" }
+				]
+			}
+		},
+		"bones": {
+			"ALL": {
+				"translate": [
+					{
+						"curve": [ 0.133, 0, 0.267, 0, 0.133, 0, 0.267, 7.62 ]
+					},
+					{
+						"time": 0.4,
+						"y": 7.62,
+						"curve": [ 0.533, 0, 0.667, 0, 0.533, 7.62, 0.667, 0 ]
+					},
+					{ "time": 0.8 }
+				]
+			}
+		}
+	}
+}
+}

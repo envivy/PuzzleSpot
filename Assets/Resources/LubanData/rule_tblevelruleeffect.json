@@ -1,0 +1,340 @@
+[
+  {
+    "id": "L01_E01",
+    "level_id": 1,
+    "effect_type": 2,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E02",
+    "level_id": 1,
+    "effect_type": 1,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E03",
+    "level_id": 1,
+    "effect_type": 2,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E04",
+    "level_id": 1,
+    "effect_type": 1,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E05",
+    "level_id": 1,
+    "effect_type": 2,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E06",
+    "level_id": 1,
+    "effect_type": 1,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E07",
+    "level_id": 1,
+    "effect_type": 2,
+    "bool_param": false,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E08",
+    "level_id": 1,
+    "effect_type": 1,
+    "bool_param": false,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E09",
+    "level_id": 1,
+    "effect_type": 2,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E10",
+    "level_id": 1,
+    "effect_type": 1,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E11",
+    "level_id": 1,
+    "effect_type": 2,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E12",
+    "level_id": 1,
+    "effect_type": 1,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E13",
+    "level_id": 1,
+    "effect_type": 2,
+    "bool_param": false,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E14",
+    "level_id": 1,
+    "effect_type": 1,
+    "bool_param": false,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E15",
+    "level_id": 1,
+    "effect_type": 2,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E16",
+    "level_id": 1,
+    "effect_type": 1,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E17",
+    "level_id": 1,
+    "effect_type": 2,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E18",
+    "level_id": 1,
+    "effect_type": 1,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E19",
+    "level_id": 1,
+    "effect_type": 2,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E20",
+    "level_id": 1,
+    "effect_type": 1,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E21",
+    "level_id": 1,
+    "effect_type": 2,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E22",
+    "level_id": 1,
+    "effect_type": 1,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E23",
+    "level_id": 1,
+    "effect_type": 2,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E24",
+    "level_id": 1,
+    "effect_type": 1,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E25",
+    "level_id": 1,
+    "effect_type": 2,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  },
+  {
+    "id": "L01_E26",
+    "level_id": 1,
+    "effect_type": 1,
+    "bool_param": true,
+    "int_param": 0,
+    "float_param": [
+      0,
+      0.5
+    ],
+    "string_param": "",
+    "vector_param": ""
+  }
+]

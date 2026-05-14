@@ -1,0 +1,515 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "GameData",
+    "PackageVersion": "Simulate",
+    "AssetList": [
+        {
+            "Address": "Button",
+            "AssetPath": "Assets/AssetBundle/Audio/Button.wav",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "click",
+            "AssetPath": "Assets/AssetBundle/Audio/click.wav",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Close",
+            "AssetPath": "Assets/AssetBundle/Audio/Close.wav",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "level_finish_cheer",
+            "AssetPath": "Assets/AssetBundle/Audio/level_finish_cheer.wav",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "第1关01",
+            "AssetPath": "Assets/AssetBundle/Image/第1关01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第1关02",
+            "AssetPath": "Assets/AssetBundle/Image/第1关02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第1关03",
+            "AssetPath": "Assets/AssetBundle/Image/第1关03.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第2关01",
+            "AssetPath": "Assets/AssetBundle/Image/第2关01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第2关02",
+            "AssetPath": "Assets/AssetBundle/Image/第2关02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第2关03",
+            "AssetPath": "Assets/AssetBundle/Image/第2关03.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第3关01",
+            "AssetPath": "Assets/AssetBundle/Image/第3关01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第3关02",
+            "AssetPath": "Assets/AssetBundle/Image/第3关02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第3关03",
+            "AssetPath": "Assets/AssetBundle/Image/第3关03.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第4关01",
+            "AssetPath": "Assets/AssetBundle/Image/第4关01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第4关02",
+            "AssetPath": "Assets/AssetBundle/Image/第4关02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第4关03",
+            "AssetPath": "Assets/AssetBundle/Image/第4关03.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第5关01",
+            "AssetPath": "Assets/AssetBundle/Image/第5关01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第5关02",
+            "AssetPath": "Assets/AssetBundle/Image/第5关02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第5关03",
+            "AssetPath": "Assets/AssetBundle/Image/第5关03.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第6关01",
+            "AssetPath": "Assets/AssetBundle/Image/第6关01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第6关02",
+            "AssetPath": "Assets/AssetBundle/Image/第6关02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第6关03",
+            "AssetPath": "Assets/AssetBundle/Image/第6关03.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第7关01",
+            "AssetPath": "Assets/AssetBundle/Image/第7关01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第7关02",
+            "AssetPath": "Assets/AssetBundle/Image/第7关02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第7关03",
+            "AssetPath": "Assets/AssetBundle/Image/第7关03.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第8关01",
+            "AssetPath": "Assets/AssetBundle/Image/第8关01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第8关02",
+            "AssetPath": "Assets/AssetBundle/Image/第8关02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第8关03",
+            "AssetPath": "Assets/AssetBundle/Image/第8关03.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第9关01",
+            "AssetPath": "Assets/AssetBundle/Image/第9关01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第9关02",
+            "AssetPath": "Assets/AssetBundle/Image/第9关02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第9关03",
+            "AssetPath": "Assets/AssetBundle/Image/第9关03.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第10关01",
+            "AssetPath": "Assets/AssetBundle/Image/第10关01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第10关02",
+            "AssetPath": "Assets/AssetBundle/Image/第10关02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第10关03",
+            "AssetPath": "Assets/AssetBundle/Image/第10关03.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第11关01",
+            "AssetPath": "Assets/AssetBundle/Image/第11关01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第11关02",
+            "AssetPath": "Assets/AssetBundle/Image/第11关02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第11关03",
+            "AssetPath": "Assets/AssetBundle/Image/第11关03.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第12关01",
+            "AssetPath": "Assets/AssetBundle/Image/第12关01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第12关02",
+            "AssetPath": "Assets/AssetBundle/Image/第12关02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第12关03",
+            "AssetPath": "Assets/AssetBundle/Image/第12关03.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第13关01",
+            "AssetPath": "Assets/AssetBundle/Image/第13关01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第13关02",
+            "AssetPath": "Assets/AssetBundle/Image/第13关02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "第13关03",
+            "AssetPath": "Assets/AssetBundle/Image/第13关03.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "Level1",
+            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Level2",
+            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Level3",
+            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level3.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Level4",
+            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level4.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Level5",
+            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level5.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Level6",
+            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level6.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Level7",
+            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level7.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Level8",
+            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level8.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Level9",
+            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level9.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Level10",
+            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level10.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Level11",
+            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level11.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Level12",
+            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level12.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Level13",
+            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level13.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Level10001",
+            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level10001.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "LevelItem",
+            "AssetPath": "Assets/AssetBundle/Prebabs/LevelItem.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "LevelPage",
+            "AssetPath": "Assets/AssetBundle/Prebabs/LevelPage.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "Game",
+            "AssetPath": "Assets/AssetBundle/Scene/Game.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "FlyCash",
+            "AssetPath": "Assets/AssetBundle/SmallUI/FlyCash.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "LookAt",
+            "AssetPath": "Assets/AssetBundle/SmallUI/LookAt.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "ToastUI",
+            "AssetPath": "Assets/AssetBundle/SmallUI/ToastUI.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_assetbundle_audio.bundle",
+            "UnityCRC": 0,
+            "FileHash": "c364924f23462b0a5fffd685c885050e",
+            "FileCRC": "00000000",
+            "FileSize": 872858,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_assetbundle_image.bundle",
+            "UnityCRC": 0,
+            "FileHash": "4e74a57f77eeeca3b19cb28c0e7d15db",
+            "FileCRC": "00000000",
+            "FileSize": 8554696,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_assetbundle_prebabs_level.bundle",
+            "UnityCRC": 0,
+            "FileHash": "c22dba9c180f644ba3508b1bdee718ba",
+            "FileCRC": "00000000",
+            "FileSize": 8382366,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_assetbundle_prebabs.bundle",
+            "UnityCRC": 0,
+            "FileHash": "ec0b02d4010f29dbc4bb2e54c6749bc8",
+            "FileCRC": "00000000",
+            "FileSize": 144964,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_assetbundle_scene.bundle",
+            "UnityCRC": 0,
+            "FileHash": "39fa5852145c4507da2a28400bd6f8df",
+            "FileCRC": "00000000",
+            "FileSize": 1695544,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_assetbundle_smallui.bundle",
+            "UnityCRC": 0,
+            "FileHash": "651ccc3f0d7deacc38bc809bd6062c34",
+            "FileCRC": "00000000",
+            "FileSize": 22590,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}

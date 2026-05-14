@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: Girl_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 081cb9a0f120c984f8e3beb710c20e8d, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 0631bbfe1dc4cb44b9e9e4b5a770b13e, type: 2}
+  - {fileID: 2100000, guid: 24bfc2c0bcd83734788720e12088fc9f, type: 2}
+  - {fileID: 2100000, guid: 0327820acec0f2f4299975a114617403, type: 2}
