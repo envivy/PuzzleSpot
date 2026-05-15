@@ -28,6 +28,7 @@ public sealed partial class LevelRuleStep : Luban.BeanBase
         { if(!_buf["failLevel"].IsBoolean) { throw new SerializationException(); }  FailLevel = _buf["failLevel"]; }
         { var __json0 = _buf["effect"]; if(!__json0.IsArray) { throw new SerializationException(); } Effect = new System.Collections.Generic.List<string>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { string __v0;  { if(!__e0.IsString) { throw new SerializationException(); }  __v0 = __e0; }  Effect.Add(__v0); }   }
         { if(!_buf["successHide"].IsBoolean) { throw new SerializationException(); }  SuccessHide = _buf["successHide"]; }
+        { if(!_buf["success_tip"].IsString) { throw new SerializationException(); }  SuccessTip = _buf["success_tip"]; }
     }
 
     public static LevelRuleStep DeserializeLevelRuleStep(JSONNode _buf)
@@ -46,6 +47,7 @@ public sealed partial class LevelRuleStep : Luban.BeanBase
     public readonly bool FailLevel;
     public readonly System.Collections.Generic.List<string> Effect;
     public readonly bool SuccessHide;
+    public readonly string SuccessTip;
    
     public const int __ID__ = 841517050;
     public override int GetTypeId() => __ID__;
@@ -68,6 +70,7 @@ public sealed partial class LevelRuleStep : Luban.BeanBase
         + "failLevel:" + FailLevel + ","
         + "effect:" + Luban.StringUtil.CollectionToString(Effect) + ","
         + "successHide:" + SuccessHide + ","
+        + "successTip:" + SuccessTip + ","
         + "}";
     }
 }

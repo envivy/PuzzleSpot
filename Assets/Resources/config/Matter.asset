@@ -24,29 +24,22 @@ MonoBehaviour:
   FlyCash: {fileID: 3716042697118379792, guid: 85b8835f7afbb3347ad6a20c05e8becf, type: 3}
   levels:
   - levelID: 1
-    title: Improve their life
-    tip: Help the two elderly grandparents imporve their lives
-    time: 120
-    targetScore: 14
-    imagePath1: "\u7B2C1\u517301"
-    imagePath2: "\u7B2C1\u517302"
-    imagePath3: "\u7B2C1\u517303"
+    title: Solo Night Safety
+    tip: Find the safety risks before resting alone at night.
+    time: 180
+    targetScore: 8
+    imagePath1: L01_Image
+    imagePath2: ""
+    imagePath3: ""
     tipInfos:
-    - Drag the money onto the wall
-    - Drag the money onto the floor
-    - Drag the money onto the bed
-    - Drag the money onto the quilt
-    - Drag the money onto the grandmother
-    - Drag the money onto the grandfather
-    - Drag the money onto the lamp shelf
-    - Drag the money onto the lamp item
-    - Drag the money into the fireplace
-    - Drag the money onto the food on the table
-    - Drag the money onto the dining table
-    - Drag the money onto the window
-    - Drag the money into the mouse hole
-    - Open the front door
-    - Drag the money to the poor girl
+    - Door lock and security chain
+    - Open window
+    - Curtain not fully closed
+    - Takeout bag private information
+    - Bedside phone notification
+    - Phone distraction in hand
+    - Socket and trailing wire
+    - Unknown footprint at the door
   - levelID: 2
     title: Find the murder evidence
     tip: Find all the evidence to convict her.

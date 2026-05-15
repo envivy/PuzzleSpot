@@ -61,6 +61,11 @@ public class RuleLevelController : Level
 
     private void BuildCaches()
     {
+        if (_tables == null)
+        {
+            return;
+        }
+
         foreach (LevelRuleStep step in _tables.Steps)
         {
             if (!_actorStepByElement.TryGetValue(step.ActorId, out List<LevelRuleStep> elementSteps))
@@ -127,18 +132,56 @@ public class RuleLevelController : Level
         _completedSteps.Add(step.Id);
         Debug.LogWarning($"[RuleLevel] Step completed: {step.Id}, actor={step.ActorId}, target={step.TargetId}, effects={string.Join("|", step.Effect)}");
 
-        if (step.SuccessHide)
-        {
-            HideActor(step.ActorId, sourceOperation);
-        }
-
         if (step.FailLevel)
         {
             GameSet.instance.gameManager.DelGameResult(false);
             return;
         }
 
+        ShowSuccessFeedback(step);
+        GameSet.instance.gameManager.AddScore();
+
+        if (step.SuccessHide)
+        {
+            HideActor(step.ActorId, sourceOperation);
+        }
+
         RunEffectIds(step.Effect, step);
+    }
+
+    private static void ShowSuccessFeedback(LevelRuleStep step)
+    {
+        if (step == null || string.IsNullOrEmpty(step.SuccessTip))
+        {
+            return;
+        }
+
+        GameSet.instance.gameManager.ShowToast(ResolveSuccessTip(step.SuccessTip));
+    }
+
+    private static string ResolveSuccessTip(string key)
+    {
+        switch (key)
+        {
+            case "L01_SAFE_DOOR_LOCK":
+                return "门锁还没扣防盗链，睡前要确认门锁、反锁和防盗链都到位。";
+            case "L01_SAFE_WINDOW_OPEN":
+                return "窗户还开着，夜晚独居要及时关窗，避免攀爬、窥视和安全风险。";
+            case "L01_SAFE_CURTAIN_OPEN":
+                return "窗帘没有拉严，房间内部容易被外面看到，隐私会暴露。";
+            case "L01_SAFE_TAKEOUT_INFO":
+                return "外卖袋上的姓名、电话和门牌号要及时处理，别把个人信息留在外面。";
+            case "L01_SAFE_BEDSIDE_PHONE":
+                return "床头手机亮屏可能暴露陌生消息或定位信息，记得检查并锁屏。";
+            case "L01_SAFE_HAND_PHONE":
+                return "门窗还没确认安全时不要沉迷手机，要先观察周围环境。";
+            case "L01_SAFE_SOCKET_WIRE":
+                return "插座和长电线存在过热、绊倒或漏电隐患，睡前要整理好。";
+            case "L01_SAFE_FOOTPRINT":
+                return "门口有陌生脚印，说明可能有人靠近或进入过，要提高警惕。";
+            default:
+                return key;
+        }
     }
 
     private void RunEffectIds(IEnumerable<string> effectIds, LevelRuleStep step)

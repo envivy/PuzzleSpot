@@ -310,6 +310,13 @@
             "BundleID": 1
         },
         {
+            "Address": "Level001",
+            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level001.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
             "Address": "Level1",
             "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level1.prefab",
             "AssetGUID": "",
@@ -319,13 +326,6 @@
         {
             "Address": "Level2",
             "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level2.prefab",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 2
-        },
-        {
-            "Address": "Level3",
-            "AssetPath": "Assets/AssetBundle/Prebabs/Level/Level3.prefab",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 2
@@ -476,7 +476,7 @@
             "UnityCRC": 0,
             "FileHash": "c22dba9c180f644ba3508b1bdee718ba",
             "FileCRC": "00000000",
-            "FileSize": 8382366,
+            "FileSize": 4266579,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -496,7 +496,7 @@
             "UnityCRC": 0,
             "FileHash": "39fa5852145c4507da2a28400bd6f8df",
             "FileCRC": "00000000",
-            "FileSize": 1695544,
+            "FileSize": 1645420,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []

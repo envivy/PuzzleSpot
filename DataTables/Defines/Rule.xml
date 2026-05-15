@@ -48,6 +48,7 @@
     <var name="failLevel" type="bool"/>
     <var name="effect" type="list,string"/>
     <var name="successHide" type="bool"/>
+    <var name="success_tip" type="string"/>
   </bean>
 
   <bean name="LevelRuleEffect">

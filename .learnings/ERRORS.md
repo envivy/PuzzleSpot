@@ -4,6 +4,183 @@ Command failures and integration errors.
 
 ---
 
+## [ERR-20260515-006] windows_rg_glob_path
+
+**Logged**: 2026-05-15T15:02:00+08:00
+**Priority**: low
+**Status**: resolved
+**Area**: config
+
+### Summary
+Using `rg` with a Windows path argument containing `Assets\Spine*` failed because the wildcard path was treated as an invalid path.
+
+### Error
+```text
+rg: Assets\Spine*: 文件名、目录名或卷标语法不正确。 (os error 123)
+```
+
+### Context
+- Command/operation attempted: search for `LateUpdate` implementations across Spine-related folders.
+- Impact: none; the actual script was reviewed and adjusted conservatively.
+
+### Suggested Fix
+Use `rg --files | rg "pattern"` for wildcard path discovery on Windows, then pass concrete paths to `rg`.
+
+### Metadata
+- Reproducible: yes
+- Related Files: Assets/Scripts/Tools/SpineSlotPrinter.cs
+
+### Resolution
+- **Resolved**: 2026-05-15T15:02:00+08:00
+- **Notes**: Avoided relying on direct `LateUpdate()` and used `Update(0f)` instead.
+
+---
+
+## [ERR-20260515-005] luban_non_utf8_json_output
+
+**Logged**: 2026-05-15T14:35:00+08:00
+**Priority**: medium
+**Status**: pending
+**Area**: config
+
+### Summary
+Chinese strings written through Excel COM into Luban tables generated invalid JSON.
+
+### Error
+```text
+ConvertFrom-Json : Invalid object passed in, ':' or '}' expected.
+```
+
+### Context
+- Command/operation attempted: generate `success_tip` Chinese text directly from `levelStep.xlsx`.
+- Impact: `rule_tblevelrulestep.json` and `game_tblevel.json` became invalid until regenerated with ASCII-safe values.
+
+### Suggested Fix
+Keep Luban table text fields ASCII keys when edited through this workflow, then resolve display text in runtime localization or code.
+
+### Metadata
+- Reproducible: yes
+- Related Files: DataTables/Datas/levelStep.xlsx, Assets/Resources/LubanData/rule_tblevelrulestep.json
+
+---
+
+## [ERR-20260515-004] excel_com_array_type_cast
+
+**Logged**: 2026-05-15T14:28:00+08:00
+**Priority**: low
+**Status**: pending
+**Area**: config
+
+### Summary
+Assigning mixed PowerShell array values directly to Excel COM cells caused an `Int32` to `String` cast exception.
+
+### Error
+```text
+Unable to cast object of type 'System.Int32' to type 'System.String'.
+```
+
+### Context
+- Command/operation attempted: rewrite `levelStep.xlsx` rows from a mixed string/int/bool PowerShell array.
+- Impact: workbook edit stopped before saving complete corrected rows.
+
+### Suggested Fix
+Assign Excel COM cell values explicitly per field, or coerce through strings only where the destination expects text.
+
+### Metadata
+- Reproducible: yes
+- Related Files: DataTables/Datas/levelStep.xlsx
+
+---
+
+## [ERR-20260515-003] levelstep_excel_header_shift
+
+**Logged**: 2026-05-15T14:25:00+08:00
+**Priority**: low
+**Status**: pending
+**Area**: config
+
+### Summary
+Editing `levelStep.xlsx` with Excel COM shifted data one column left, leaving required `id` cells blank for Luban.
+
+### Error
+```text
+Field is not allowed to be empty
+Sheet:Sheet1 Field:id Position:[B:5]
+```
+
+### Context
+- Command/operation attempted: `DataTables/gen_client.bat` after adding `success_tip`.
+- Cause: table rows must keep column A as an empty/metadata column while actual schema fields begin at column B.
+
+### Suggested Fix
+When editing Luban Excel tables in this project, preserve the `##var` column layout exactly: row labels in column A, schema fields from column B onward, data values aligned under those schema fields.
+
+### Metadata
+- Reproducible: yes
+- Related Files: DataTables/Datas/levelStep.xlsx
+
+---
+
+## [ERR-20260515-001] python_openpyxl_missing
+
+**Logged**: 2026-05-15T14:15:00+08:00
+**Priority**: low
+**Status**: pending
+**Area**: config
+
+### Summary
+Reading Luban `.xlsx` files with Python failed because `openpyxl` is not installed in this workspace environment.
+
+### Error
+```text
+ModuleNotFoundError: No module named 'openpyxl'
+```
+
+### Context
+- Command/operation attempted: inspect `DataTables/Datas/levelStep.xlsx`, `levelEffect.xlsx`, and `level.xlsx` via Python.
+- Impact: switched to generated JSON inspection and project scripts instead of Python Excel parsing.
+
+### Suggested Fix
+Use Excel COM or project Luban scripts for `.xlsx` updates, or install `openpyxl` if Python-based table editing becomes a recurring need.
+
+### Metadata
+- Reproducible: yes
+- Related Files: DataTables/Datas/levelStep.xlsx
+
+---
+
+## [ERR-20260515-002] wrong_level_meta_path
+
+**Logged**: 2026-05-15T14:16:00+08:00
+**Priority**: low
+**Status**: resolved
+**Area**: config
+
+### Summary
+Attempted to read `Assets/Scripts/Game/Level.cs.meta`, but the runtime `Level` script lives under `Assets/Scripts/Game/GamePlay/Level/`.
+
+### Error
+```text
+Cannot find path 'E:\TeamGames\PuzzleSpotGame\Assets\Scripts\Game\Level.cs.meta' because it does not exist.
+```
+
+### Context
+- Command/operation attempted: fetch Unity script GUIDs for prefab wiring.
+- Impact: none after locating the correct path.
+
+### Suggested Fix
+Search for `class Level : MonoBehaviour` before assuming script layout.
+
+### Metadata
+- Reproducible: yes
+- Related Files: Assets/Scripts/Game/GamePlay/Level/Level.cs.meta
+
+### Resolution
+- **Resolved**: 2026-05-15T14:16:00+08:00
+- **Notes**: Read the correct `Assets/Scripts/Game/GamePlay/Level/Level.cs.meta` file.
+
+---
+
 
 ## [ERR-20260513-001] parallel_learnings_read
 

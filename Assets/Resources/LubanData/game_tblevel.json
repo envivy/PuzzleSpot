@@ -2,12 +2,14 @@
   {
     "id": 1,
     "title": "L01_Title",
-    "tip": "",
+    "tip": "L01_Tip",
     "time": 180,
-    "target_score": 14,
+    "target_score": 8,
     "image_path1": "L01_Image",
     "image_path2": "",
     "image_path3": "",
-    "tip_infos": []
+    "tip_infos": [
+      "DoorLock|Window|Curtain|Takeout|BedsidePhone|HandPhone|SocketWire|Footprint"
+    ]
   }
 ]

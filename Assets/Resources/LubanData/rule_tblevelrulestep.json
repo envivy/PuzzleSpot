@@ -5,206 +5,110 @@
     "hint_id": "L01_Tip1",
     "order_index": 1,
     "actor_id": "L01_A01",
-    "target_id": "L01_T01",
+    "target_id": "",
     "require_step": "",
     "block_step": "",
     "failLevel": false,
-    "effect": [
-      "L01_E01|L01_E02"
-    ],
-    "successHide": true
+    "effect": [],
+    "successHide": true,
+    "success_tip": "L01_SAFE_DOOR_LOCK"
   },
   {
     "id": "L01_S02",
     "level_id": 1,
     "hint_id": "L01_Tip2",
-    "order_index": 1,
-    "actor_id": "L01_A01",
-    "target_id": "L01_T02",
-    "require_step": "",
-    "block_step": "",
-    "failLevel": false,
-    "effect": [
-      "L01_E03|L01_E04"
-    ],
-    "successHide": true
-  },
-  {
-    "id": "L01_S03",
-    "level_id": 1,
-    "hint_id": "L01_Tip3",
-    "order_index": 1,
-    "actor_id": "L01_A01",
-    "target_id": "L01_T03",
-    "require_step": "",
-    "block_step": "",
-    "failLevel": false,
-    "effect": [
-      "L01_E05|L01_E06"
-    ],
-    "successHide": true
-  },
-  {
-    "id": "L01_S04",
-    "level_id": 1,
-    "hint_id": "L01_Tip4",
-    "order_index": 1,
-    "actor_id": "L01_A01",
-    "target_id": "L01_T04",
-    "require_step": "",
-    "block_step": "",
-    "failLevel": false,
-    "effect": [
-      "L01_E07|L01_E08"
-    ],
-    "successHide": true
-  },
-  {
-    "id": "L01_S05",
-    "level_id": 1,
-    "hint_id": "L01_Tip5",
-    "order_index": 1,
-    "actor_id": "L01_A01",
-    "target_id": "L01_T05",
-    "require_step": "",
-    "block_step": "",
-    "failLevel": false,
-    "effect": [
-      "L01_E09|L01_E10"
-    ],
-    "successHide": true
-  },
-  {
-    "id": "L01_S06",
-    "level_id": 1,
-    "hint_id": "L01_Tip6",
-    "order_index": 1,
-    "actor_id": "L01_A01",
-    "target_id": "L01_T06",
-    "require_step": "",
-    "block_step": "",
-    "failLevel": false,
-    "effect": [
-      "L01_E11|L01_E12"
-    ],
-    "successHide": true
-  },
-  {
-    "id": "L01_S07",
-    "level_id": 1,
-    "hint_id": "L01_Tip7",
-    "order_index": 1,
-    "actor_id": "L01_A01",
-    "target_id": "L01_T07",
-    "require_step": "",
-    "block_step": "",
-    "failLevel": false,
-    "effect": [
-      "L01_E13|L01_E14"
-    ],
-    "successHide": true
-  },
-  {
-    "id": "L01_S08",
-    "level_id": 1,
-    "hint_id": "L01_Tip8",
-    "order_index": 1,
-    "actor_id": "L01_A01",
-    "target_id": "L01_T08",
-    "require_step": "",
-    "block_step": "",
-    "failLevel": false,
-    "effect": [
-      "L01_E15|L01_E16"
-    ],
-    "successHide": true
-  },
-  {
-    "id": "L01_S09",
-    "level_id": 1,
-    "hint_id": "L01_Tip9",
-    "order_index": 1,
-    "actor_id": "L01_A01",
-    "target_id": "L01_T09",
-    "require_step": "",
-    "block_step": "",
-    "failLevel": false,
-    "effect": [
-      "L01_E17|L01_E18"
-    ],
-    "successHide": true
-  },
-  {
-    "id": "L01_S10",
-    "level_id": 1,
-    "hint_id": "L01_Tip10",
-    "order_index": 1,
-    "actor_id": "L01_A01",
-    "target_id": "L01_T10",
-    "require_step": "",
-    "block_step": "",
-    "failLevel": false,
-    "effect": [
-      "L01_E19|L01_E20"
-    ],
-    "successHide": true
-  },
-  {
-    "id": "L01_S11",
-    "level_id": 1,
-    "hint_id": "L01_Tip11",
-    "order_index": 1,
-    "actor_id": "L01_A01",
-    "target_id": "L01_T11",
-    "require_step": "",
-    "block_step": "",
-    "failLevel": false,
-    "effect": [
-      "L01_E21|L01_E22"
-    ],
-    "successHide": true
-  },
-  {
-    "id": "L01_S12",
-    "level_id": 1,
-    "hint_id": "L01_Tip12",
-    "order_index": 1,
-    "actor_id": "L01_A01",
-    "target_id": "L01_T12",
-    "require_step": "",
-    "block_step": "",
-    "failLevel": false,
-    "effect": [
-      "L01_E23|L01_E24"
-    ],
-    "successHide": true
-  },
-  {
-    "id": "L01_S13",
-    "level_id": 1,
-    "hint_id": "L01_Tip13",
-    "order_index": 1,
-    "actor_id": "L01_A01",
-    "target_id": "L01_T13",
-    "require_step": "",
-    "block_step": "",
-    "failLevel": false,
-    "effect": [
-      "L01_E25|L01_E26"
-    ],
-    "successHide": true
-  },
-  {
-    "id": "L01_S14",
-    "level_id": 1,
-    "hint_id": "L01_Tip14",
-    "order_index": 1,
+    "order_index": 2,
     "actor_id": "L01_A02",
     "target_id": "",
     "require_step": "",
     "block_step": "",
     "failLevel": false,
     "effect": [],
-    "successHide": true
+    "successHide": true,
+    "success_tip": "L01_SAFE_WINDOW_OPEN"
+  },
+  {
+    "id": "L01_S03",
+    "level_id": 1,
+    "hint_id": "L01_Tip3",
+    "order_index": 3,
+    "actor_id": "L01_A03",
+    "target_id": "",
+    "require_step": "",
+    "block_step": "",
+    "failLevel": false,
+    "effect": [],
+    "successHide": true,
+    "success_tip": "L01_SAFE_CURTAIN_OPEN"
+  },
+  {
+    "id": "L01_S04",
+    "level_id": 1,
+    "hint_id": "L01_Tip4",
+    "order_index": 4,
+    "actor_id": "L01_A04",
+    "target_id": "",
+    "require_step": "",
+    "block_step": "",
+    "failLevel": false,
+    "effect": [],
+    "successHide": true,
+    "success_tip": "L01_SAFE_TAKEOUT_INFO"
+  },
+  {
+    "id": "L01_S05",
+    "level_id": 1,
+    "hint_id": "L01_Tip5",
+    "order_index": 5,
+    "actor_id": "L01_A05",
+    "target_id": "",
+    "require_step": "",
+    "block_step": "",
+    "failLevel": false,
+    "effect": [],
+    "successHide": true,
+    "success_tip": "L01_SAFE_BEDSIDE_PHONE"
+  },
+  {
+    "id": "L01_S06",
+    "level_id": 1,
+    "hint_id": "L01_Tip6",
+    "order_index": 6,
+    "actor_id": "L01_A06",
+    "target_id": "",
+    "require_step": "",
+    "block_step": "",
+    "failLevel": false,
+    "effect": [],
+    "successHide": true,
+    "success_tip": "L01_SAFE_HAND_PHONE"
+  },
+  {
+    "id": "L01_S07",
+    "level_id": 1,
+    "hint_id": "L01_Tip7",
+    "order_index": 7,
+    "actor_id": "L01_A07",
+    "target_id": "",
+    "require_step": "",
+    "block_step": "",
+    "failLevel": false,
+    "effect": [],
+    "successHide": true,
+    "success_tip": "L01_SAFE_SOCKET_WIRE"
+  },
+  {
+    "id": "L01_S08",
+    "level_id": 1,
+    "hint_id": "L01_Tip8",
+    "order_index": 8,
+    "actor_id": "L01_A08",
+    "target_id": "",
+    "require_step": "",
+    "block_step": "",
+    "failLevel": false,
+    "effect": [],
+    "successHide": true,
+    "success_tip": "L01_SAFE_FOOTPRINT"
   }
 ]
